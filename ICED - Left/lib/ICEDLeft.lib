@@ -694,20 +694,20 @@ ENDDEF
 # SK6812MINI-E
 #
 DEF SK6812MINI-E LED 0 30 Y Y 1 F N
-F0 "LED" 950 300 50 H V L CNN
-F1 "SK6812MINI-E" 950 200 50 H V L CNN
-F2 "SK6812MINIE" 950 100 50 H I L CNN
-F3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" 950 0 50 H I L CNN
-F4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" 950 -100 50 H I L CNN "Description"
-F5 "1.88" 950 -200 50 H I L CNN "Height"
-F6 "Yellow Stone Corp." 950 -300 50 H I L CNN "Manufacturer_Name"
-F7 "SK6812MINI-E" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F0 "LED" 50 300 50 H V L CNN
+F1 "SK6812MINI-E" 500 300 50 H V L CNN
+F2 "SK6812MINIE" 500 200 50 H I L CNN
+F3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" 500 100 50 H I L CNN
+F4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" 500 0 50 H I L CNN "Description"
+F5 "1.88" 500 -100 50 H I L CNN "Height"
+F6 "Yellow Stone Corp." 500 -200 50 H I L CNN "Manufacturer_Name"
+F7 "SK6812MINI-E" 500 -300 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
-X VDD 1 0 0 200 R 50 50 0 0 P
-X DOUT 2 0 -100 200 R 50 50 0 0 P
-X GND 3 1100 -100 200 L 50 50 0 0 P
-X DIN 4 1100 0 200 L 50 50 0 0 P
+S -250 250 250 -250 0 1 0 f
+X VDD 1 0 450 200 D 50 50 0 0 P
+X DOUT 2 450 0 200 L 50 50 0 0 P
+X GND 3 0 -450 200 U 50 50 0 0 P
+X DIN 4 -450 0 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
