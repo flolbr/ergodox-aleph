@@ -1,4 +1,4 @@
-(module SK6812MINIE (layer F.Cu) (tedit 605009AB)
+(module SK6812MINIE (layer F.Cu) (tedit 6051B6AD)
   (descr SK6812MINI-E-1)
   (tags LED)
   (attr smd)
@@ -37,5 +37,5 @@
   (pad 2 smd rect (at 2.5 0.75 90) (size 0.82 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -2.5 0.75 90) (size 0.82 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -2.5 -0.75 90) (size 0.82 1.8) (layers F.Cu F.Paste F.Mask))
-  (pad "" np_thru_hole rect (at 0 0) (size 3.2 2.8) (drill oval 3.2 2.8) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole oval (at 0 0) (size 2.9 2.5) (drill oval 2.9 2.5) (layers *.Cu *.Mask))
 )
