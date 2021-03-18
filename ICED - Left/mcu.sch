@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title "ICED-L"
 Date "2016-07-17"
 Rev "Rev 1.2b"
@@ -68,8 +68,6 @@ F 3 "" H 3950 1900 60  0001 C CNN
 	1    3950 1900
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6000 4900 3    40   3State ~ 0
-PTA4
 Text HLabel 7850 3250 2    40   3State ~ 0
 PTB2
 Text HLabel 7850 3150 2    40   3State ~ 0
@@ -195,24 +193,13 @@ Text Label 3650 2650 2    39   ~ 0
 USB_DM
 Text Label 3650 2550 2    39   ~ 0
 USB_DP
-$Comp
-L ICEDLeft:VSS #PWR09
-U 1 1 539CD891
-P 9650 1350
-F 0 "#PWR09" H 9650 1350 30  0001 C CNN
-F 1 "VSS" H 9650 1280 30  0000 C CNN
-F 2 "" H 9650 1350 60  0000 C CNN
-F 3 "" H 9650 1350 60  0000 C CNN
-	1    9650 1350
-	1    0    0    -1  
-$EndComp
 Text Label 5500 5750 3    39   ~ 0
 SWD_CLK
 Text Label 5800 5750 3    39   ~ 0
 SWD_DIO
-Text Label 9950 1100 2    39   ~ 0
+Text Label 10050 1150 0    39   ~ 0
 SWD_CLK
-Text Label 9950 900  2    39   ~ 0
+Text Label 10050 1250 0    39   ~ 0
 SWD_DIO
 $Comp
 L ICEDLeft:VSS #PWR010
@@ -224,17 +211,6 @@ F 2 "" H 1900 1500 60  0000 C CNN
 F 3 "" H 1900 1500 60  0000 C CNN
 	1    1900 1500
 	1    0    0    -1  
-$EndComp
-$Comp
-L ICEDLeft:+5V #PWR011
-U 1 1 539CDF75
-P 9850 1350
-F 0 "#PWR011" H 9850 1440 20  0001 C CNN
-F 1 "+5V" H 9850 1440 30  0000 C CNN
-F 2 "" H 9850 1350 60  0000 C CNN
-F 3 "" H 9850 1350 60  0000 C CNN
-	1    9850 1350
-	-1   0    0    1   
 $EndComp
 $Comp
 L ICEDLeft:PWR_FLAG #FLG012
@@ -620,8 +596,6 @@ Text Label 7850 3450 0    39   ~ 0
 SCL0
 Text Label 7850 3350 0    39   ~ 0
 SDA0
-Text Label 7850 2950 0    39   ~ 0
-INTB
 Text Label 10600 3100 2    39   ~ 0
 SDA0
 Text Label 10600 3200 2    39   ~ 0
@@ -694,26 +668,14 @@ F 3 "" H 1900 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ICEDLeft:FLASH_HDR P1
-U 1 1 552F5625
-P 10400 1000
-F 0 "P1" H 10200 700 59  0000 C CNN
-F 1 "FLASH_HDR" V 10400 1000 59  0001 C CNN
-F 2 "prettylib:JLINK_NEEDLE" H 10400 1000 60  0001 C CNN
-F 3 "" H 10400 1000 60  0000 C CNN
-F 4 "Dual-row" H 10170 770 5   0001 L BNN "Field4"
-	1    10400 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L ICEDLeft:VDD #PWR028
 U 1 1 552F58F9
-P 9850 650
-F 0 "#PWR028" H 9850 750 30  0001 C CNN
-F 1 "VDD" H 9850 760 30  0000 C CNN
-F 2 "" H 9850 650 60  0000 C CNN
-F 3 "" H 9850 650 60  0000 C CNN
-	1    9850 650 
+P 9550 650
+F 0 "#PWR028" H 9550 750 30  0001 C CNN
+F 1 "VDD" H 9550 760 30  0000 C CNN
+F 2 "" H 9550 650 60  0000 C CNN
+F 3 "" H 9550 650 60  0000 C CNN
+	1    9550 650 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -979,31 +941,15 @@ Wire Wire Line
 	3600 1500 3600 1400
 Wire Wire Line
 	1900 900  1900 1000
-Wire Wire Line
-	9950 800  9850 800 
-Wire Wire Line
-	9850 800  9850 650 
-Wire Wire Line
-	9950 1000 9650 1000
-Wire Wire Line
-	9650 1000 9650 1350
-Wire Wire Line
-	9850 1200 9850 1350
-Wire Wire Line
-	9950 1200 9850 1200
-Text Label 10850 1200 0    39   ~ 0
+Text Label 10050 1350 0    39   ~ 0
 TX0
-Text Label 10850 1100 0    39   ~ 0
-TX2
-Text Label 10850 1000 0    39   ~ 0
+Text Label 10050 1450 0    39   ~ 0
 RX0
 Text Label 6100 5250 0    39   ~ 0
 PTA5
-Text Label 10850 900  0    39   ~ 0
-PTA5
 Text Label 8500 3350 0    39   ~ 0
 MCU_RESET
-Text Label 10850 800  0    39   ~ 0
+Text Label 10050 950  0    39   ~ 0
 MCU_RESET
 $Comp
 L ICEDLeft:CONN_17 P3
@@ -1066,8 +1012,6 @@ Wire Wire Line
 	10600 2200 10500 2200
 Text Label 10600 3300 2    39   ~ 0
 MCU_RESET
-Text Label 10600 3400 2    39   ~ 0
-AUD
 $Comp
 L ICEDLeft:CT C1
 U 1 1 553097EE
@@ -1306,8 +1250,6 @@ F 3 "https://analytics.supplyframe.com/trackingservlet/track/?r=0x34EY99PS_gIu2q
 	1    5850 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 7850 3050 2    39   Input ~ 0
-RGBIN
 Connection ~ 3250 7000
 Wire Wire Line
 	3250 7000 3250 7200
@@ -1320,4 +1262,58 @@ Wire Wire Line
 Connection ~ 3250 7600
 Wire Wire Line
 	3250 7600 3250 7650
+Text HLabel 7850 3050 2    40   3State ~ 0
+PTB16
+Text Label 2000 4800 0    50   ~ 0
+VSS
+Text Label 2000 4600 0    50   ~ 0
+VDD
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 60CA20CD
+P 1800 4700
+AR Path="/60CA20CD" Ref="J?"  Part="1" 
+AR Path="/549878F0/60CA20CD" Ref="P5"  Part="1" 
+F 0 "P5" H 1692 4375 50  0000 C CNN
+F 1 "RGB Out" H 1692 4466 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1800 4650 50  0001 C CNN
+F 3 "~" H 1800 4700 50  0001 C CNN
+	1    1800 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 P1
+U 1 1 60D056D2
+P 9550 1250
+F 0 "P1" H 9107 1296 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 9107 1205 50  0000 R CNN
+F 2 "prettylib:SHF-105-01-L-D-TH" H 9550 1250 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 9200 0   50  0001 C CNN
+	1    9550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1850 9550 1850
+$Comp
+L ICEDLeft:VSS #PWR0101
+U 1 1 60D6A9E7
+P 9550 1950
+F 0 "#PWR0101" H 9550 1950 30  0001 C CNN
+F 1 "VSS" H 9550 1800 30  0000 C CNN
+F 2 "" H 9550 1950 60  0000 C CNN
+F 3 "" H 9550 1950 60  0000 C CNN
+	1    9550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1950 9550 1850
+Connection ~ 9550 1850
+Text HLabel 6000 4900 3    40   Output ~ 0
+RGBIN
+Text HLabel 2000 4700 2    50   Input ~ 0
+RGBOUT
+Text HLabel 10600 3400 0    39   Input ~ 0
+RGBIN
+Text HLabel 7850 2950 2    39   BiDi ~ 0
+PTB17
 $EndSCHEMATC
