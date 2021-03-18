@@ -1,16 +1,14 @@
-PCB and PCB Related Bits
-========================
+# Ergodox Aleph 1
 
-[![Visit our IRC channel](https://kiwiirc.com/buttons/irc.freenode.net/input.club.png)](https://kiwiirc.com/client/irc.freenode.net/#input.club)
+Ergodox Aleph 1 is a modification of the [Ergodox Infinity][original].
 
-In general kicad is used for projects.
-A project will be explicit if another program is required to view.
+Major changes include:
 
+* Full Under-Key RGB
+* Output header for additional RGB on bottom
+* Through-hole diodes for easy soldering
+* Replaced the expensive J-Link Needle port with a cheap J-Link socket
 
-Projects
---------
+**I've only done the left board so far.**
 
-* WhiteFox, 2016-06-11
-* IC60 (Infinity 60% Keyboard, 2016-20-07)
-* ICED Left and Right (Infinity Ergodox, 2015-08-07)
-* DPH (Model F capsense controller using teensy2++)
+[original]: https://input.club/devices/infinity-ergodox/
