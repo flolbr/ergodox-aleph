@@ -1128,18 +1128,6 @@ Col4
 NoConn ~ 6550 6350
 Text Label 6550 8300 2    60   ~ 0
 GND
-Wire Wire Line
-	7700 6250 7500 6250
-Wire Wire Line
-	7700 6150 7500 6150
-$Sheet
-S 7700 6050 550  300 
-U 54B2C0DD
-F0 "ledmatrix" 50
-F1 "ledmatrix.sch" 50
-F2 "RGBIN" I L 7700 6150 60 
-F3 "RGBOUT" O L 7700 6250 50 
-$EndSheet
 $Sheet
 S 6550 6000 950  2400
 U 549878F0

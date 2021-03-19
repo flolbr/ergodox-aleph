@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title "ICED-L"
 Date "2016-07-17"
 Rev "Rev 1.2b"
@@ -13,833 +13,1008 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:LED_RGBA LED7
-U 1 1 605557E9
-P 1250 1200
-F 0 "LED7" H 1500 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 1250 1606 50  0001 C CNN
-F 2 "" H 1250 1150 50  0001 C CNN
-F 3 "~" H 1250 1150 50  0001 C CNN
-	1    1250 1200
-	1    0    0    -1  
-$EndComp
-Text Label 1050 1000 2    50   ~ 0
-Red1
-Text Label 1050 1200 2    50   ~ 0
-Green1
-Text Label 1050 1400 2    50   ~ 0
-Blue1
-Text Label 1050 1650 2    50   ~ 0
-Red2
-$Comp
-L Device:LED_RGBA LED6
-U 1 1 60558275
-P 1250 1850
-F 0 "LED6" H 1500 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 1250 2256 50  0001 C CNN
-F 2 "" H 1250 1800 50  0001 C CNN
-F 3 "~" H 1250 1800 50  0001 C CNN
-	1    1250 1850
-	1    0    0    -1  
-$EndComp
-Text Label 1050 1850 2    50   ~ 0
-Green2
-Text Label 1050 2050 2    50   ~ 0
-Blue2
-Text Label 1050 2300 2    50   ~ 0
-Red3
-$Comp
-L Device:LED_RGBA LED5
-U 1 1 60560C0C
-P 1250 2500
-F 0 "LED5" H 1500 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 1250 2906 50  0001 C CNN
-F 2 "" H 1250 2450 50  0001 C CNN
-F 3 "~" H 1250 2450 50  0001 C CNN
-	1    1250 2500
-	1    0    0    -1  
-$EndComp
-Text Label 1050 2500 2    50   ~ 0
-Green3
-Text Label 1050 2700 2    50   ~ 0
-Blue3
-Text Label 1050 2950 2    50   ~ 0
-Red4
-Text Label 1050 3150 2    50   ~ 0
-Green4
-Text Label 1050 3350 2    50   ~ 0
-Blue4
+Text HLabel 4600 7250 3    50   Input ~ 0
+GND
+Text HLabel 3600 7250 3    50   Input ~ 0
+VDD
+Text HLabel 3900 7250 3    50   Input ~ 0
+SDA
+Text HLabel 4000 7250 3    50   Input ~ 0
+SCL
+NoConn ~ 4200 7250
 Wire Wire Line
-	1450 1200 1450 1850
-Connection ~ 1450 1850
-Wire Wire Line
-	1450 1850 1450 2500
-Connection ~ 1450 2500
+	4500 7250 4600 7250
 $Comp
-L Device:LED_RGBA LED14
-U 1 1 605833D3
-P 2000 1200
-F 0 "LED14" H 2250 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 2000 1606 50  0001 C CNN
-F 2 "" H 2000 1150 50  0001 C CNN
-F 3 "~" H 2000 1150 50  0001 C CNN
-	1    2000 1200
-	1    0    0    -1  
-$EndComp
-Text Label 1800 1000 2    50   ~ 0
-Red1
-Text Label 1800 1200 2    50   ~ 0
-Green1
-Text Label 1800 1400 2    50   ~ 0
-Blue1
-Text Label 1800 1650 2    50   ~ 0
-Red2
-$Comp
-L Device:LED_RGBA LED13
-U 1 1 605833DD
-P 2000 1850
-F 0 "LED13" H 2250 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 2000 2256 50  0001 C CNN
-F 2 "" H 2000 1800 50  0001 C CNN
-F 3 "~" H 2000 1800 50  0001 C CNN
-	1    2000 1850
-	1    0    0    -1  
-$EndComp
-Text Label 1800 1850 2    50   ~ 0
-Green2
-Text Label 1800 2050 2    50   ~ 0
-Blue2
-Text Label 1800 2300 2    50   ~ 0
-Red3
-$Comp
-L Device:LED_RGBA LED12
-U 1 1 605833E6
-P 2000 2500
-F 0 "LED12" H 2250 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 2000 2906 50  0001 C CNN
-F 2 "" H 2000 2450 50  0001 C CNN
-F 3 "~" H 2000 2450 50  0001 C CNN
-	1    2000 2500
-	1    0    0    -1  
-$EndComp
-Text Label 1800 2500 2    50   ~ 0
-Green3
-Text Label 1800 2700 2    50   ~ 0
-Blue3
-$Comp
-L Device:LED_RGBA LED11
-U 1 1 605833EE
-P 2000 3150
-F 0 "LED11" H 2250 3450 50  0000 C CNN
-F 1 "LED_RGBA" H 2000 3556 50  0001 C CNN
-F 2 "" H 2000 3100 50  0001 C CNN
-F 3 "~" H 2000 3100 50  0001 C CNN
-	1    2000 3150
-	1    0    0    -1  
-$EndComp
-Text Label 1800 2950 2    50   ~ 0
-Red4
-Text Label 1800 3150 2    50   ~ 0
-Green4
-Text Label 1800 3350 2    50   ~ 0
-Blue4
-Wire Wire Line
-	2200 1200 2200 1850
-Connection ~ 2200 1850
-Wire Wire Line
-	2200 1850 2200 2500
-Connection ~ 2200 2500
-Wire Wire Line
-	2200 2500 2200 3150
-Wire Wire Line
-	1400 2950 1450 2950
-Wire Wire Line
-	1450 2500 1450 2950
-Connection ~ 1450 2950
-Wire Wire Line
-	1450 2950 1450 3150
-$Comp
-L Device:LED_RGBA LED4
-U 1 1 605627A6
-P 1250 3150
-F 0 "LED4" H 1500 3450 50  0000 C CNN
-F 1 "LED_RGBA" H 1250 3556 50  0001 C CNN
-F 2 "" H 1250 3100 50  0001 C CNN
-F 3 "~" H 1250 3100 50  0001 C CNN
-	1    1250 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 1900 2900 2550
-Connection ~ 2900 1900
-Wire Wire Line
-	2900 1250 2900 1900
-Text Label 2500 3400 2    50   ~ 0
-Blue4
-Text Label 2500 3200 2    50   ~ 0
-Green4
-Text Label 2500 3000 2    50   ~ 0
-Red4
-$Comp
-L Device:LED_RGBA LED17
-U 1 1 6058A5A5
-P 2700 3200
-F 0 "LED17" H 2950 3500 50  0000 C CNN
-F 1 "LED_RGBA" H 2700 3606 50  0001 C CNN
-F 2 "" H 2700 3150 50  0001 C CNN
-F 3 "~" H 2700 3150 50  0001 C CNN
-	1    2700 3200
-	1    0    0    -1  
-$EndComp
-Text Label 2500 2750 2    50   ~ 0
-Blue3
-Text Label 2500 2550 2    50   ~ 0
-Green3
-Text Label 2500 2350 2    50   ~ 0
-Red3
-Text Label 2500 2100 2    50   ~ 0
-Blue2
-Text Label 2500 1900 2    50   ~ 0
-Green2
-$Comp
-L Device:LED_RGBA LED19
-U 1 1 6058A594
-P 2700 1900
-F 0 "LED19" H 2950 2200 50  0000 C CNN
-F 1 "LED_RGBA" H 2700 2306 50  0001 C CNN
-F 2 "" H 2700 1850 50  0001 C CNN
-F 3 "~" H 2700 1850 50  0001 C CNN
-	1    2700 1900
-	1    0    0    -1  
-$EndComp
-Text Label 2500 1700 2    50   ~ 0
-Red2
-Text Label 2500 1450 2    50   ~ 0
-Blue1
-Text Label 2500 1250 2    50   ~ 0
-Green1
-Text Label 2500 1050 2    50   ~ 0
-Red1
-$Comp
-L Device:LED_RGBA LED20
-U 1 1 6058A58A
-P 2700 1250
-F 0 "LED20" H 2950 1550 50  0000 C CNN
-F 1 "LED_RGBA" H 2700 1656 50  0001 C CNN
-F 2 "" H 2700 1200 50  0001 C CNN
-F 3 "~" H 2700 1200 50  0001 C CNN
-	1    2700 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_RGBA LED1
-U 1 1 6065777F
-P 5900 1200
-F 0 "LED1" H 6150 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 5900 1606 50  0001 C CNN
-F 2 "" H 5900 1150 50  0001 C CNN
-F 3 "~" H 5900 1150 50  0001 C CNN
-	1    5900 1200
-	1    0    0    -1  
-$EndComp
-Text Label 5700 1650 2    50   ~ 0
-Red2
-$Comp
-L Device:LED_RGBA LED2
-U 1 1 60657788
-P 5900 1850
-F 0 "LED2" H 6150 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 5900 2256 50  0001 C CNN
-F 2 "" H 5900 1800 50  0001 C CNN
-F 3 "~" H 5900 1800 50  0001 C CNN
-	1    5900 1850
-	1    0    0    -1  
-$EndComp
-Text Label 5700 2300 2    50   ~ 0
-Red3
-$Comp
-L Device:LED_RGBA LED3
-U 1 1 60657791
-P 5900 2500
-F 0 "LED3" H 6150 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 5900 2906 50  0001 C CNN
-F 2 "" H 5900 2450 50  0001 C CNN
-F 3 "~" H 5900 2450 50  0001 C CNN
-	1    5900 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 1200 6100 1850
-Connection ~ 6100 1850
-Wire Wire Line
-	6100 1850 6100 2500
-$Comp
-L Device:LED_RGBA LED8
-U 1 1 60667DF7
-P 6600 1200
-F 0 "LED8" H 6850 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 6600 1606 50  0001 C CNN
-F 2 "" H 6600 1150 50  0001 C CNN
-F 3 "~" H 6600 1150 50  0001 C CNN
-	1    6600 1200
-	1    0    0    -1  
-$EndComp
-Text Label 6400 1200 2    50   ~ 0
-Green1
-Text Label 6400 1400 2    50   ~ 0
-Blue1
-Text Label 6400 1650 2    50   ~ 0
-Red2
-$Comp
-L Device:LED_RGBA LED9
-U 1 1 60667E00
-P 6600 1850
-F 0 "LED9" H 6850 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 6600 2256 50  0001 C CNN
-F 2 "" H 6600 1800 50  0001 C CNN
-F 3 "~" H 6600 1800 50  0001 C CNN
-	1    6600 1850
-	1    0    0    -1  
-$EndComp
-Text Label 6400 1850 2    50   ~ 0
-Green2
-Text Label 6400 2050 2    50   ~ 0
-Blue2
-Text Label 6400 2300 2    50   ~ 0
-Red3
-$Comp
-L Device:LED_RGBA LED10
-U 1 1 60667E09
-P 6600 2500
-F 0 "LED10" H 6850 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 6600 2906 50  0001 C CNN
-F 2 "" H 6600 2450 50  0001 C CNN
-F 3 "~" H 6600 2450 50  0001 C CNN
-	1    6600 2500
-	1    0    0    -1  
-$EndComp
-Text Label 6400 2500 2    50   ~ 0
-Green3
-Text Label 6400 2700 2    50   ~ 0
-Blue3
-Wire Wire Line
-	6800 1200 6800 1850
-Connection ~ 6800 1850
-Wire Wire Line
-	6800 1850 6800 2500
-Text Label 7150 1150 2    50   ~ 0
-Green1
-Text Label 7150 1350 2    50   ~ 0
-Blue1
-Text Label 7150 1600 2    50   ~ 0
-Red2
-$Comp
-L Device:LED_RGBA LED15
-U 1 1 60671169
-P 7350 1800
-F 0 "LED15" H 7600 2100 50  0000 C CNN
-F 1 "LED_RGBA" H 7350 2206 50  0001 C CNN
-F 2 "" H 7350 1750 50  0001 C CNN
-F 3 "~" H 7350 1750 50  0001 C CNN
-	1    7350 1800
-	1    0    0    -1  
-$EndComp
-Text Label 7150 1800 2    50   ~ 0
-Green2
-Text Label 7150 2000 2    50   ~ 0
-Blue2
-Text Label 7150 2250 2    50   ~ 0
-Red3
-Text Label 7150 2450 2    50   ~ 0
-Green3
-Text Label 7150 2650 2    50   ~ 0
-Blue3
-$Comp
-L Device:LED_RGBA LED23
-U 1 1 60673351
-P 8150 1200
-F 0 "LED23" H 8400 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 8150 1606 50  0001 C CNN
-F 2 "" H 8150 1150 50  0001 C CNN
-F 3 "~" H 8150 1150 50  0001 C CNN
-	1    8150 1200
-	1    0    0    -1  
-$EndComp
-Text Label 7950 1200 2    50   ~ 0
-Green1
-Text Label 7950 1400 2    50   ~ 0
-Blue1
-Text Label 7950 1650 2    50   ~ 0
-Red2
-$Comp
-L Device:LED_RGBA LED24
-U 1 1 6067335A
-P 8150 1850
-F 0 "LED24" H 8400 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 8150 2256 50  0001 C CNN
-F 2 "" H 8150 1800 50  0001 C CNN
-F 3 "~" H 8150 1800 50  0001 C CNN
-	1    8150 1850
-	1    0    0    -1  
-$EndComp
-Text Label 7950 1850 2    50   ~ 0
-Green2
-Text Label 7950 2050 2    50   ~ 0
-Blue2
-Text Label 7950 2300 2    50   ~ 0
-Red3
-$Comp
-L Device:LED_RGBA LED25
-U 1 1 60673363
-P 8150 2500
-F 0 "LED25" H 8400 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 8150 2906 50  0001 C CNN
-F 2 "" H 8150 2450 50  0001 C CNN
-F 3 "~" H 8150 2450 50  0001 C CNN
-	1    8150 2500
-	1    0    0    -1  
-$EndComp
-Text Label 7950 2500 2    50   ~ 0
-Green3
-Text Label 7950 2700 2    50   ~ 0
-Blue3
-Wire Wire Line
-	8350 1200 8350 1850
-Connection ~ 8350 1850
-$Comp
-L Device:LED_RGBA LED21
-U 1 1 60676DA8
-P 8850 1200
-F 0 "LED21" H 9100 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 8850 1606 50  0001 C CNN
-F 2 "" H 8850 1150 50  0001 C CNN
-F 3 "~" H 8850 1150 50  0001 C CNN
-	1    8850 1200
-	1    0    0    -1  
-$EndComp
-Text Label 8650 1200 2    50   ~ 0
-Green1
-Text Label 8650 1400 2    50   ~ 0
-Blue1
-Text Label 8650 1650 2    50   ~ 0
-Red2
-$Comp
-L Device:LED_RGBA LED22
-U 1 1 60676DB1
-P 8850 1850
-F 0 "LED22" H 9100 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 8850 2256 50  0001 C CNN
-F 2 "" H 8850 1800 50  0001 C CNN
-F 3 "~" H 8850 1800 50  0001 C CNN
-	1    8850 1850
-	1    0    0    -1  
-$EndComp
-Text Label 8650 1850 2    50   ~ 0
-Green2
-Text Label 8650 2050 2    50   ~ 0
-Blue2
-Text Label 8650 2300 2    50   ~ 0
-Red3
-$Comp
-L Device:LED_RGBA LED30
-U 1 1 60676DBA
-P 8850 2500
-F 0 "LED30" H 9100 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 8850 2906 50  0001 C CNN
-F 2 "" H 8850 2450 50  0001 C CNN
-F 3 "~" H 8850 2450 50  0001 C CNN
-	1    8850 2500
-	1    0    0    -1  
-$EndComp
-Text Label 8650 2500 2    50   ~ 0
-Green3
-Text Label 8650 2700 2    50   ~ 0
-Blue3
-Wire Wire Line
-	9050 1200 9050 1850
-Connection ~ 9050 1850
-Connection ~ 1450 3150
-Wire Wire Line
-	1450 3150 1450 3750
-Text Label 1450 3750 2    50   ~ 0
-Row1A
-Wire Wire Line
-	6100 2500 6100 3100
-Text Label 6100 3100 2    50   ~ 0
-Row1B
-Text Label 4500 5650 0    50   ~ 0
-Red1
-Text Label 4500 5550 0    50   ~ 0
-Green1
-$Comp
-L ICEDLeft:IS31FL3737-QFLS4-TR U2
-U 1 1 606B7ED1
-P 4500 5650
-F 0 "U2" H 5350 4700 50  0000 R CNN
-F 1 "IS31FL3737-QFLS4-TR" H 4456 5245 50  0001 R CNN
-F 2 "QFN40P500X500X80-41N-D" H 5950 6150 50  0001 L CNN
-F 3 "http://www.issi.com/WW/pdf/31FL3737.pdf" H 5950 6050 50  0001 L CNN
-F 4 "IC LED DRVR LINEAR 45MA 40QFN" H 5950 5950 50  0001 L CNN "Description"
-F 5 "0.8" H 5950 5850 50  0001 L CNN "Height"
-F 6 "Lumissil" H 5950 5750 50  0001 L CNN "Manufacturer_Name"
-F 7 "IS31FL3737-QFLS4-TR" H 5950 5650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "870-31FL3737QFLS4TR" H 5950 5550 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Lumissil/IS31FL3737-QFLS4-TR/?qs=o7k0yqUNuKAJ%252B%252BDONCPK0Q%3D%3D" H 5950 5450 50  0001 L CNN "Mouser Price/Stock"
-	1    4500 5650
+L ICEDLeft:IS31FL3737-QFLS4-TR U3
+U 1 1 606D76FC
+P 4900 6550
+AR Path="/54B2C0DD/606D76FC" Ref="U3"  Part="1" 
+AR Path="/549878F0/6068E321/606D76FC" Ref="U?"  Part="1" 
+AR Path="/549878F0/60748308/606D76FC" Ref="U2"  Part="1" 
+AR Path="/549878F0/605673FE/606D76FC" Ref="U2"  Part="1" 
+F 0 "U2" H 5750 5600 50  0000 R CNN
+F 1 "IS31FL3737-QFLS4-TR" H 4856 6145 50  0001 R CNN
+F 2 "QFN40P500X500X80-41N-D" H 6350 7050 50  0001 L CNN
+F 3 "http://www.issi.com/WW/pdf/31FL3737.pdf" H 6350 6950 50  0001 L CNN
+F 4 "IC LED DRVR LINEAR 45MA 40QFN" H 6350 6850 50  0001 L CNN "Description"
+F 5 "0.8" H 6350 6750 50  0001 L CNN "Height"
+F 6 "Lumissil" H 6350 6650 50  0001 L CNN "Manufacturer_Name"
+F 7 "IS31FL3737-QFLS4-TR" H 6350 6550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "870-31FL3737QFLS4TR" H 6350 6450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Lumissil/IS31FL3737-QFLS4-TR/?qs=o7k0yqUNuKAJ%252B%252BDONCPK0Q%3D%3D" H 6350 6350 50  0001 L CNN "Mouser Price/Stock"
+	1    4900 6550
 	-1   0    0    1   
 $EndComp
-Text Label 4500 5450 0    50   ~ 0
-Blue1
-Text Label 4500 5250 0    50   ~ 0
-Red2
-Text Label 4500 5150 0    50   ~ 0
-Blue2
-Text Label 4500 5050 0    50   ~ 0
-Blue2
-Text Label 4500 4950 0    50   ~ 0
-Red3
-Text Label 4500 4850 0    50   ~ 0
-Green3
-Text Label 4500 4750 0    50   ~ 0
-Blue3
-Text Label 4100 4050 1    50   ~ 0
-Red4
-Text Label 4000 4050 1    50   ~ 0
-Green4
-Text Label 3900 4050 1    50   ~ 0
-Blue4
-Text Label 3800 4050 1    50   ~ 0
-Row1A
-Text Label 3700 4050 1    50   ~ 0
-Row1B
-Wire Wire Line
-	2200 3150 2200 3750
-Text Label 2200 3750 2    50   ~ 0
-Row2A
-Text Label 6800 3050 2    50   ~ 0
-Row2B
-Connection ~ 6100 2500
-Connection ~ 6800 2500
-Wire Wire Line
-	6800 2500 6800 3050
+Text GLabel 3300 6550 0    50   Input ~ 0
+RESET
+NoConn ~ 3300 6350
+NoConn ~ 3300 6250
+NoConn ~ 3800 7250
+Text Label 9050 1900 2    50   ~ 0
+Red1
+Text Label 8350 1900 2    50   ~ 0
+Red1
+Text Label 6800 1900 2    50   ~ 0
+Red1
+Text Label 6100 1900 2    50   ~ 0
+Red1
 $Comp
-L Device:LED_RGBA LED18
-U 1 1 6058A59D
-P 2700 2550
-F 0 "LED18" H 2950 2850 50  0000 C CNN
-F 1 "LED_RGBA" H 2700 2956 50  0001 C CNN
-F 2 "" H 2700 2500 50  0001 C CNN
-F 3 "~" H 2700 2500 50  0001 C CNN
-	1    2700 2550
+L Device:LED_RGBA LED51
+U 1 1 606D76E2
+P 3900 2100
+AR Path="/54B2C0DD/606D76E2" Ref="LED51"  Part="1" 
+AR Path="/549878F0/6068E321/606D76E2" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D76E2" Ref="LED29"  Part="1" 
+AR Path="/549878F0/605673FE/606D76E2" Ref="LED29"  Part="1" 
+F 0 "LED29" H 4150 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 3900 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 3900 2050 50  0001 C CNN
+F 3 "~" H 3900 2050 50  0001 C CNN
+	1    3900 2100
+	1    0    0    -1  
+$EndComp
+Text Label 3700 1900 2    50   ~ 0
+Red1
+Text Label 3700 2100 2    50   ~ 0
+Green1
+Text Label 3700 2300 2    50   ~ 0
+Blue1
+Text Label 3700 2550 2    50   ~ 0
+Red2
+$Comp
+L Device:LED_RGBA LED52
+U 1 1 606D76D8
+P 3900 2750
+AR Path="/54B2C0DD/606D76D8" Ref="LED52"  Part="1" 
+AR Path="/549878F0/6068E321/606D76D8" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D76D8" Ref="LED28"  Part="1" 
+AR Path="/549878F0/605673FE/606D76D8" Ref="LED28"  Part="1" 
+F 0 "LED28" H 4150 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 3900 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 3900 2700 50  0001 C CNN
+F 3 "~" H 3900 2700 50  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+Text Label 3700 2750 2    50   ~ 0
+Green2
+Text Label 3700 2950 2    50   ~ 0
+Blue2
+Text Label 3700 3200 2    50   ~ 0
+Red3
+$Comp
+L Device:LED_RGBA LED53
+U 1 1 606D76CF
+P 3900 3400
+AR Path="/54B2C0DD/606D76CF" Ref="LED53"  Part="1" 
+AR Path="/549878F0/6068E321/606D76CF" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D76CF" Ref="LED27"  Part="1" 
+AR Path="/549878F0/605673FE/606D76CF" Ref="LED27"  Part="1" 
+F 0 "LED27" H 4150 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 3900 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 3900 3350 50  0001 C CNN
+F 3 "~" H 3900 3350 50  0001 C CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+Text Label 3700 3400 2    50   ~ 0
+Green3
+Text Label 3700 3600 2    50   ~ 0
+Blue3
+$Comp
+L Device:LED_RGBA LED54
+U 1 1 606D76C7
+P 3900 4050
+AR Path="/54B2C0DD/606D76C7" Ref="LED54"  Part="1" 
+AR Path="/549878F0/6068E321/606D76C7" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D76C7" Ref="LED26"  Part="1" 
+AR Path="/549878F0/605673FE/606D76C7" Ref="LED26"  Part="1" 
+F 0 "LED26" H 4150 4350 50  0000 C CNN
+F 1 "LED_RGBA" H 3900 4456 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 3900 4000 50  0001 C CNN
+F 3 "~" H 3900 4000 50  0001 C CNN
+	1    3900 4050
+	1    0    0    -1  
+$EndComp
+Text Label 3700 3850 2    50   ~ 0
+Red4
+Text Label 3700 4050 2    50   ~ 0
+Green4
+Text Label 3700 4250 2    50   ~ 0
+Blue4
+Wire Wire Line
+	4100 2100 4100 2750
+Connection ~ 4100 2750
+Wire Wire Line
+	4100 2750 4100 3400
+Text Label 4400 1900 2    50   ~ 0
+Red1
+Text Label 4400 2100 2    50   ~ 0
+Green1
+Text Label 4400 2300 2    50   ~ 0
+Blue1
+Text Label 4400 2550 2    50   ~ 0
+Red2
+$Comp
+L Device:LED_RGBA LED56
+U 1 1 606D76B0
+P 4600 2750
+AR Path="/54B2C0DD/606D76B0" Ref="LED56"  Part="1" 
+AR Path="/549878F0/6068E321/606D76B0" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D76B0" Ref="LED37"  Part="1" 
+AR Path="/549878F0/605673FE/606D76B0" Ref="LED37"  Part="1" 
+F 0 "LED37" H 4850 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 4600 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 4600 2700 50  0001 C CNN
+F 3 "~" H 4600 2700 50  0001 C CNN
+	1    4600 2750
+	1    0    0    -1  
+$EndComp
+Text Label 4400 2750 2    50   ~ 0
+Green2
+Text Label 4400 2950 2    50   ~ 0
+Blue2
+Text Label 4400 3200 2    50   ~ 0
+Red3
+$Comp
+L Device:LED_RGBA LED57
+U 1 1 606D76A7
+P 4600 3400
+AR Path="/54B2C0DD/606D76A7" Ref="LED57"  Part="1" 
+AR Path="/549878F0/6068E321/606D76A7" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D76A7" Ref="LED36"  Part="1" 
+AR Path="/549878F0/605673FE/606D76A7" Ref="LED36"  Part="1" 
+F 0 "LED36" H 4850 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 4600 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 4600 3350 50  0001 C CNN
+F 3 "~" H 4600 3350 50  0001 C CNN
+	1    4600 3400
+	1    0    0    -1  
+$EndComp
+Text Label 4400 3400 2    50   ~ 0
+Green3
+Text Label 4400 3600 2    50   ~ 0
+Blue3
+$Comp
+L Device:LED_RGBA LED58
+U 1 1 606D769F
+P 4600 4050
+AR Path="/54B2C0DD/606D769F" Ref="LED58"  Part="1" 
+AR Path="/549878F0/6068E321/606D769F" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D769F" Ref="LED35"  Part="1" 
+AR Path="/549878F0/605673FE/606D769F" Ref="LED35"  Part="1" 
+F 0 "LED35" H 4850 4350 50  0000 C CNN
+F 1 "LED_RGBA" H 4600 4456 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 4600 4000 50  0001 C CNN
+F 3 "~" H 4600 4000 50  0001 C CNN
+	1    4600 4050
+	1    0    0    -1  
+$EndComp
+Text Label 4400 3850 2    50   ~ 0
+Red4
+Text Label 4400 4050 2    50   ~ 0
+Green4
+Text Label 4400 4250 2    50   ~ 0
+Blue4
+Wire Wire Line
+	4800 2100 4800 2750
+Connection ~ 4800 2750
+Wire Wire Line
+	4800 2750 4800 3400
+Connection ~ 4800 3400
+Wire Wire Line
+	4800 3400 4800 4050
+Text Label 6100 2100 2    50   ~ 0
+Green1
+Text Label 6100 2300 2    50   ~ 0
+Blue1
+Text Label 6100 2750 2    50   ~ 0
+Green2
+Text Label 6100 2950 2    50   ~ 0
+Blue2
+Text Label 6100 3400 2    50   ~ 0
+Green3
+Text Label 6100 3600 2    50   ~ 0
+Blue3
+Connection ~ 4100 3400
+Wire Wire Line
+	4100 3400 4100 4050
+Connection ~ 4800 4050
+Wire Wire Line
+	4800 4050 4800 4650
+Text Label 4800 4650 2    50   ~ 0
+Row5A
+Connection ~ 4100 4050
+Wire Wire Line
+	4100 4050 4100 4650
+Text Label 4100 4650 2    50   ~ 0
+Row4A
+Text Label 5250 1900 2    50   ~ 0
+Red1
+Text Label 5250 2100 2    50   ~ 0
+Green1
+Text Label 5250 2300 2    50   ~ 0
+Blue1
+Text Label 5250 2550 2    50   ~ 0
+Red2
+Text Label 5250 2750 2    50   ~ 0
+Green2
+Text Label 5250 2950 2    50   ~ 0
+Blue2
+Text Label 5250 3200 2    50   ~ 0
+Red3
+Text Label 5250 3400 2    50   ~ 0
+Green3
+Text Label 5250 3600 2    50   ~ 0
+Blue3
+Text Label 5250 3850 2    50   ~ 0
+Red4
+Text Label 5250 4050 2    50   ~ 0
+Green4
+Text Label 5250 4250 2    50   ~ 0
+Blue4
+$Comp
+L Device:LED_RGBA LED62
+U 1 1 606D7675
+P 5450 4050
+AR Path="/54B2C0DD/606D7675" Ref="LED62"  Part="1" 
+AR Path="/549878F0/6068E321/606D7675" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7675" Ref="LED31"  Part="1" 
+AR Path="/549878F0/605673FE/606D7675" Ref="LED31"  Part="1" 
+F 0 "LED31" H 5700 4350 50  0000 C CNN
+F 1 "LED_RGBA" H 5450 4456 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 5450 4000 50  0001 C CNN
+F 3 "~" H 5450 4000 50  0001 C CNN
+	1    5450 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3400
+$Comp
+L Device:LED_RGBA LED61
+U 1 1 606D766F
+P 5450 3400
+AR Path="/54B2C0DD/606D766F" Ref="LED61"  Part="1" 
+AR Path="/549878F0/6068E321/606D766F" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D766F" Ref="LED32"  Part="1" 
+AR Path="/549878F0/605673FE/606D766F" Ref="LED32"  Part="1" 
+F 0 "LED32" H 5700 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 5450 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 5450 3350 50  0001 C CNN
+F 3 "~" H 5450 3350 50  0001 C CNN
+	1    5450 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 2550 2900 3200
-Connection ~ 2900 2550
-Connection ~ 2900 3200
+	5650 2750 5650 3400
 Wire Wire Line
-	2900 3200 2900 3700
-Text Label 7550 3000 2    50   ~ 0
+	5650 2100 5650 2750
+Connection ~ 5650 2750
+$Comp
+L Device:LED_RGBA LED60
+U 1 1 606D7669
+P 5450 2750
+AR Path="/54B2C0DD/606D7669" Ref="LED60"  Part="1" 
+AR Path="/549878F0/6068E321/606D7669" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7669" Ref="LED33"  Part="1" 
+AR Path="/549878F0/605673FE/606D7669" Ref="LED33"  Part="1" 
+F 0 "LED33" H 5700 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 5450 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 5450 2700 50  0001 C CNN
+F 3 "~" H 5450 2700 50  0001 C CNN
+	1    5450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RGBA LED59
+U 1 1 606D7663
+P 5450 2100
+AR Path="/54B2C0DD/606D7663" Ref="LED59"  Part="1" 
+AR Path="/549878F0/6068E321/606D7663" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7663" Ref="LED34"  Part="1" 
+AR Path="/549878F0/605673FE/606D7663" Ref="LED34"  Part="1" 
+F 0 "LED34" H 5700 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 5450 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 5450 2050 50  0001 C CNN
+F 3 "~" H 5450 2050 50  0001 C CNN
+	1    5450 2100
+	1    0    0    -1  
+$EndComp
+Text Label 5650 4600 2    50   ~ 0
+Row5B
+Wire Wire Line
+	5650 3400 5650 4050
+Wire Wire Line
+	5650 4050 5650 4600
+Connection ~ 5650 4050
+Text Label 3300 6050 2    50   ~ 0
+Row5B
+Text Label 3300 5950 2    50   ~ 0
+Row5A
+Text Label 3300 5850 2    50   ~ 0
+Row4C
+Text Label 3300 5750 2    50   ~ 0
+Row4B
+Text Label 3300 5650 2    50   ~ 0
+Row4A
+Text Label 3700 4950 1    50   ~ 0
+Row3A
+Text Label 3900 4950 1    50   ~ 0
+Row2B
+Text Label 4000 4950 1    50   ~ 0
+Row2A
+$Comp
+L Device:LED_RGBA LED70
+U 1 1 606D7652
+P 7750 3350
+AR Path="/54B2C0DD/606D7652" Ref="LED70"  Part="1" 
+AR Path="/549878F0/6068E321/606D7652" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7652" Ref="LED15"  Part="1" 
+AR Path="/549878F0/605673FE/606D7652" Ref="LED15"  Part="1" 
+F 0 "LED15" H 8000 3650 50  0000 C CNN
+F 1 "LED_RGBA" H 7750 3756 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 7750 3300 50  0001 C CNN
+F 3 "~" H 7750 3300 50  0001 C CNN
+	1    7750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2700 7950 3350
+Text Label 9450 3950 2    50   ~ 0
+Row4C
+Text Label 8750 3950 2    50   ~ 0
+Row4B
+Text Label 3300 4600 2    50   ~ 0
+Row3A
+Text Label 7950 3900 2    50   ~ 0
 Row3B
-Connection ~ 2200 3150
-Text Label 2900 3700 2    50   ~ 0
-Row3A
-Wire Wire Line
-	8350 1850 8350 3050
-Text Label 8350 3050 2    50   ~ 0
-Row4B
-Text Label 9050 3050 2    50   ~ 0
-Row4C
-Connection ~ 9050 2500
-Wire Wire Line
-	9050 2500 9050 3050
-Wire Wire Line
-	7550 1800 7550 3000
 $Comp
-L Device:LED_RGBA LED16
-U 1 1 60671172
-P 7350 2450
-F 0 "LED16" H 7600 2750 50  0000 C CNN
-F 1 "LED_RGBA" H 7350 2856 50  0001 C CNN
-F 2 "" H 7350 2400 50  0001 C CNN
-F 3 "~" H 7350 2400 50  0001 C CNN
-	1    7350 2450
+L Device:LED_RGBA LED49
+U 1 1 606D763F
+P 3100 3450
+AR Path="/54B2C0DD/606D763F" Ref="LED49"  Part="1" 
+AR Path="/549878F0/6068E321/606D763F" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D763F" Ref="LED18"  Part="1" 
+AR Path="/549878F0/605673FE/606D763F" Ref="LED18"  Part="1" 
+F 0 "LED18" H 3350 3750 50  0000 C CNN
+F 1 "LED_RGBA" H 3100 3856 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 3100 3400 50  0001 C CNN
+F 3 "~" H 3100 3400 50  0001 C CNN
+	1    3100 3450
 	1    0    0    -1  
 $EndComp
-Text Label 3600 4050 1    50   ~ 0
-Row2A
-Text Label 3500 4050 1    50   ~ 0
+Text Label 7200 3950 2    50   ~ 0
 Row2B
-Text Label 3300 4050 1    50   ~ 0
-Row3A
-Text Label 2900 4750 2    50   ~ 0
-Row4A
-Text Label 2900 4850 2    50   ~ 0
-Row4B
-Text Label 2900 4950 2    50   ~ 0
-Row4C
-Text Label 2900 5050 2    50   ~ 0
-Row5A
-Text Label 2900 5150 2    50   ~ 0
-Row5B
-Wire Wire Line
-	9050 2450 9050 2500
-Wire Wire Line
-	9050 1850 9050 2500
-Connection ~ 5250 3150
-Wire Wire Line
-	5250 3150 5250 3700
-Text Label 5250 3700 2    50   ~ 0
-Row5B
-$Comp
-L Device:LED_RGBA LED34
-U 1 1 6058662D
-P 5050 1200
-F 0 "LED34" H 5300 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 5050 1606 50  0001 C CNN
-F 2 "" H 5050 1150 50  0001 C CNN
-F 3 "~" H 5050 1150 50  0001 C CNN
-	1    5050 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_RGBA LED35
-U 1 1 60586637
-P 5050 1850
-F 0 "LED35" H 5300 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 5050 2256 50  0001 C CNN
-F 2 "" H 5050 1800 50  0001 C CNN
-F 3 "~" H 5050 1800 50  0001 C CNN
-	1    5050 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_RGBA LED32
-U 1 1 60586640
-P 5050 2500
-F 0 "LED32" H 5300 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 5050 2906 50  0001 C CNN
-F 2 "" H 5050 2450 50  0001 C CNN
-F 3 "~" H 5050 2450 50  0001 C CNN
-	1    5050 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_RGBA LED31
-U 1 1 60586648
-P 5050 3150
-F 0 "LED31" H 5300 3450 50  0000 C CNN
-F 1 "LED_RGBA" H 5050 3556 50  0001 C CNN
-F 2 "" H 5050 3100 50  0001 C CNN
-F 3 "~" H 5050 3100 50  0001 C CNN
-	1    5050 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 1200 5250 1850
-Connection ~ 5250 1850
-Wire Wire Line
-	5250 1850 5250 2500
-Connection ~ 5250 2500
-Wire Wire Line
-	5250 2500 5250 3150
-Text Label 4850 3350 2    50   ~ 0
+Text Label 2600 4650 2    50   ~ 0
+Row2A
+Text Label 4100 4950 1    50   ~ 0
+Row1B
+Text Label 4200 4950 1    50   ~ 0
+Row1A
+Text Label 4300 4950 1    50   ~ 0
 Blue4
-Text Label 4850 3150 2    50   ~ 0
+Text Label 4400 4950 1    50   ~ 0
 Green4
-Text Label 4850 2950 2    50   ~ 0
+Text Label 4500 4950 1    50   ~ 0
 Red4
-Text Label 4850 2700 2    50   ~ 0
+Text Label 4900 5650 0    50   ~ 0
 Blue3
-Text Label 4850 2500 2    50   ~ 0
+Text Label 4900 5750 0    50   ~ 0
 Green3
-Text Label 4850 2300 2    50   ~ 0
+Text Label 4900 5850 0    50   ~ 0
 Red3
-Text Label 4850 2050 2    50   ~ 0
+Text Label 4900 5950 0    50   ~ 0
 Blue2
-Text Label 4850 1850 2    50   ~ 0
-Green2
-Text Label 4850 1650 2    50   ~ 0
+Text Label 4900 6050 0    50   ~ 0
+Blue2
+Text Label 4900 6150 0    50   ~ 0
 Red2
-Text Label 4850 1400 2    50   ~ 0
+Text Label 4900 6350 0    50   ~ 0
 Blue1
-Text Label 4850 1200 2    50   ~ 0
+Text Label 4900 6450 0    50   ~ 0
 Green1
-Text Label 4850 1000 2    50   ~ 0
+Text Label 4900 6550 0    50   ~ 0
 Red1
-Text Label 3700 3750 2    50   ~ 0
-Row4A
-Wire Wire Line
-	3700 3150 3700 3750
-Text Label 4400 3750 2    50   ~ 0
-Row5A
-Wire Wire Line
-	4400 3150 4400 3750
-Wire Wire Line
-	3700 2500 3700 3150
-Text Label 5700 2700 2    50   ~ 0
+Text Label 6500 4000 2    50   ~ 0
+Row1B
+Text Label 1850 4650 2    50   ~ 0
+Row1A
+Text Label 9050 3600 2    50   ~ 0
 Blue3
-Text Label 5700 2500 2    50   ~ 0
+Text Label 9050 3400 2    50   ~ 0
 Green3
-Text Label 5700 2050 2    50   ~ 0
+Wire Wire Line
+	9450 3400 9450 3950
+Connection ~ 9450 3400
+$Comp
+L Device:LED_RGBA LED76
+U 1 1 606D761C
+P 9250 3400
+AR Path="/54B2C0DD/606D761C" Ref="LED76"  Part="1" 
+AR Path="/549878F0/6068E321/606D761C" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D761C" Ref="LED30"  Part="1" 
+AR Path="/549878F0/605673FE/606D761C" Ref="LED30"  Part="1" 
+F 0 "LED30" H 9500 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 9250 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 9250 3350 50  0001 C CNN
+F 3 "~" H 9250 3350 50  0001 C CNN
+	1    9250 3400
+	1    0    0    -1  
+$EndComp
+Text Label 9050 3200 2    50   ~ 0
+Red3
+Text Label 9050 2950 2    50   ~ 0
 Blue2
-Text Label 5700 1850 2    50   ~ 0
+Text Label 9050 2750 2    50   ~ 0
 Green2
-Text Label 5700 1400 2    50   ~ 0
+Wire Wire Line
+	9450 2750 9450 3400
+Wire Wire Line
+	9450 2100 9450 2750
+Connection ~ 9450 2750
+$Comp
+L Device:LED_RGBA LED75
+U 1 1 606D7613
+P 9250 2750
+AR Path="/54B2C0DD/606D7613" Ref="LED75"  Part="1" 
+AR Path="/549878F0/6068E321/606D7613" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7613" Ref="LED21"  Part="1" 
+AR Path="/549878F0/605673FE/606D7613" Ref="LED21"  Part="1" 
+F 0 "LED21" H 9500 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 9250 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 9250 2700 50  0001 C CNN
+F 3 "~" H 9250 2700 50  0001 C CNN
+	1    9250 2750
+	1    0    0    -1  
+$EndComp
+Text Label 9050 2550 2    50   ~ 0
+Red2
+Text Label 9050 2300 2    50   ~ 0
 Blue1
-Text Label 5700 1200 2    50   ~ 0
+Text Label 9050 2100 2    50   ~ 0
 Green1
+$Comp
+L Device:LED_RGBA LED74
+U 1 1 606D760A
+P 9250 2100
+AR Path="/54B2C0DD/606D760A" Ref="LED74"  Part="1" 
+AR Path="/549878F0/6068E321/606D760A" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D760A" Ref="LED22"  Part="1" 
+AR Path="/549878F0/605673FE/606D760A" Ref="LED22"  Part="1" 
+F 0 "LED22" H 9500 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 9250 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 9250 2050 50  0001 C CNN
+F 3 "~" H 9250 2050 50  0001 C CNN
+	1    9250 2100
+	1    0    0    -1  
+$EndComp
+Text Label 8350 3600 2    50   ~ 0
+Blue3
+Text Label 8350 3400 2    50   ~ 0
+Green3
 Wire Wire Line
-	4400 2500 4400 3150
-Connection ~ 4400 2500
+	8750 3400 8750 3950
+Connection ~ 8750 3400
+$Comp
+L Device:LED_RGBA LED73
+U 1 1 606D7600
+P 8550 3400
+AR Path="/54B2C0DD/606D7600" Ref="LED73"  Part="1" 
+AR Path="/549878F0/6068E321/606D7600" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7600" Ref="LED23"  Part="1" 
+AR Path="/549878F0/605673FE/606D7600" Ref="LED23"  Part="1" 
+F 0 "LED23" H 8800 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 8550 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 8550 3350 50  0001 C CNN
+F 3 "~" H 8550 3350 50  0001 C CNN
+	1    8550 3400
+	1    0    0    -1  
+$EndComp
+Text Label 8350 3200 2    50   ~ 0
+Red3
+Text Label 8350 2950 2    50   ~ 0
+Blue2
+Text Label 8350 2750 2    50   ~ 0
+Green2
 Wire Wire Line
-	4400 1850 4400 2500
-Connection ~ 4400 1850
+	8750 2750 8750 3400
 Wire Wire Line
-	4400 1200 4400 1850
-Text Label 4000 3350 2    50   ~ 0
+	8750 2100 8750 2750
+Connection ~ 8750 2750
+$Comp
+L Device:LED_RGBA LED72
+U 1 1 606D75F7
+P 8550 2750
+AR Path="/54B2C0DD/606D75F7" Ref="LED72"  Part="1" 
+AR Path="/549878F0/6068E321/606D75F7" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75F7" Ref="LED24"  Part="1" 
+AR Path="/549878F0/605673FE/606D75F7" Ref="LED24"  Part="1" 
+F 0 "LED24" H 8800 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 8550 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 8550 2700 50  0001 C CNN
+F 3 "~" H 8550 2700 50  0001 C CNN
+	1    8550 2750
+	1    0    0    -1  
+$EndComp
+Text Label 8350 2550 2    50   ~ 0
+Red2
+Text Label 8350 2300 2    50   ~ 0
+Blue1
+Text Label 8350 2100 2    50   ~ 0
+Green1
+$Comp
+L Device:LED_RGBA LED71
+U 1 1 606D75EE
+P 8550 2100
+AR Path="/54B2C0DD/606D75EE" Ref="LED71"  Part="1" 
+AR Path="/549878F0/6068E321/606D75EE" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75EE" Ref="LED25"  Part="1" 
+AR Path="/549878F0/605673FE/606D75EE" Ref="LED25"  Part="1" 
+F 0 "LED25" H 8800 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 8550 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 8550 2050 50  0001 C CNN
+F 3 "~" H 8550 2050 50  0001 C CNN
+	1    8550 2100
+	1    0    0    -1  
+$EndComp
+Text Label 7550 3550 2    50   ~ 0
+Blue2
+Text Label 7550 3350 2    50   ~ 0
+Green2
+Text Label 7550 3150 2    50   ~ 0
+Red2
+Text Label 7550 2900 2    50   ~ 0
+Blue1
+Text Label 7550 2700 2    50   ~ 0
+Green1
+$Comp
+L Device:LED_RGBA LED69
+U 1 1 606D75E3
+P 7750 2700
+AR Path="/54B2C0DD/606D75E3" Ref="LED69"  Part="1" 
+AR Path="/549878F0/6068E321/606D75E3" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75E3" Ref="LED16"  Part="1" 
+AR Path="/549878F0/605673FE/606D75E3" Ref="LED16"  Part="1" 
+F 0 "LED16" H 8000 3000 50  0000 C CNN
+F 1 "LED_RGBA" H 7750 3106 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 7750 2650 50  0001 C CNN
+F 3 "~" H 7750 2650 50  0001 C CNN
+	1    7750 2700
+	1    0    0    -1  
+$EndComp
+Text Label 7550 2500 2    50   ~ 0
+Red1
+Text Label 6800 3600 2    50   ~ 0
+Blue3
+Text Label 6800 3400 2    50   ~ 0
+Green3
+Wire Wire Line
+	7200 3400 7200 3950
+Connection ~ 7200 3400
+$Comp
+L Device:LED_RGBA LED68
+U 1 1 606D75D7
+P 7000 3400
+AR Path="/54B2C0DD/606D75D7" Ref="LED68"  Part="1" 
+AR Path="/549878F0/6068E321/606D75D7" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75D7" Ref="LED8"  Part="1" 
+AR Path="/549878F0/605673FE/606D75D7" Ref="LED8"  Part="1" 
+F 0 "LED8" H 7250 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 7000 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 7000 3350 50  0001 C CNN
+F 3 "~" H 7000 3350 50  0001 C CNN
+	1    7000 3400
+	1    0    0    -1  
+$EndComp
+Text Label 6800 3200 2    50   ~ 0
+Red3
+Text Label 6800 2950 2    50   ~ 0
+Blue2
+Text Label 6800 2750 2    50   ~ 0
+Green2
+Wire Wire Line
+	7200 2750 7200 3400
+Wire Wire Line
+	7200 2100 7200 2750
+Connection ~ 7200 2750
+$Comp
+L Device:LED_RGBA LED67
+U 1 1 606D75CE
+P 7000 2750
+AR Path="/54B2C0DD/606D75CE" Ref="LED67"  Part="1" 
+AR Path="/549878F0/6068E321/606D75CE" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75CE" Ref="LED9"  Part="1" 
+AR Path="/549878F0/605673FE/606D75CE" Ref="LED9"  Part="1" 
+F 0 "LED9" H 7250 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 7000 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 7000 2700 50  0001 C CNN
+F 3 "~" H 7000 2700 50  0001 C CNN
+	1    7000 2750
+	1    0    0    -1  
+$EndComp
+Text Label 6800 2550 2    50   ~ 0
+Red2
+Text Label 6800 2300 2    50   ~ 0
+Blue1
+Text Label 6800 2100 2    50   ~ 0
+Green1
+$Comp
+L Device:LED_RGBA LED66
+U 1 1 606D75C5
+P 7000 2100
+AR Path="/54B2C0DD/606D75C5" Ref="LED66"  Part="1" 
+AR Path="/549878F0/6068E321/606D75C5" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75C5" Ref="LED10"  Part="1" 
+AR Path="/549878F0/605673FE/606D75C5" Ref="LED10"  Part="1" 
+F 0 "LED10" H 7250 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 7000 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 7000 2050 50  0001 C CNN
+F 3 "~" H 7000 2050 50  0001 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3400 6500 4000
+Connection ~ 6500 3400
+$Comp
+L Device:LED_RGBA LED65
+U 1 1 606D75BC
+P 6300 3400
+AR Path="/54B2C0DD/606D75BC" Ref="LED65"  Part="1" 
+AR Path="/549878F0/6068E321/606D75BC" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75BC" Ref="LED1"  Part="1" 
+AR Path="/549878F0/605673FE/606D75BC" Ref="LED1"  Part="1" 
+F 0 "LED1" H 6550 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 6300 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 6300 3350 50  0001 C CNN
+F 3 "~" H 6300 3350 50  0001 C CNN
+	1    6300 3400
+	1    0    0    -1  
+$EndComp
+Text Label 6100 3200 2    50   ~ 0
+Red3
+Wire Wire Line
+	6500 2750 6500 3400
+Wire Wire Line
+	6500 2100 6500 2750
+Connection ~ 6500 2750
+$Comp
+L Device:LED_RGBA LED64
+U 1 1 606D75B5
+P 6300 2750
+AR Path="/54B2C0DD/606D75B5" Ref="LED64"  Part="1" 
+AR Path="/549878F0/6068E321/606D75B5" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75B5" Ref="LED2"  Part="1" 
+AR Path="/549878F0/605673FE/606D75B5" Ref="LED2"  Part="1" 
+F 0 "LED2" H 6550 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 6300 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 6300 2700 50  0001 C CNN
+F 3 "~" H 6300 2700 50  0001 C CNN
+	1    6300 2750
+	1    0    0    -1  
+$EndComp
+Text Label 6100 2550 2    50   ~ 0
+Red2
+$Comp
+L Device:LED_RGBA LED63
+U 1 1 606D75AE
+P 6300 2100
+AR Path="/54B2C0DD/606D75AE" Ref="LED63"  Part="1" 
+AR Path="/549878F0/6068E321/606D75AE" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75AE" Ref="LED3"  Part="1" 
+AR Path="/549878F0/605673FE/606D75AE" Ref="LED3"  Part="1" 
+F 0 "LED3" H 6550 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 6300 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 6300 2050 50  0001 C CNN
+F 3 "~" H 6300 2050 50  0001 C CNN
+	1    6300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RGBA LED47
+U 1 1 606D75A8
+P 3100 2150
+AR Path="/54B2C0DD/606D75A8" Ref="LED47"  Part="1" 
+AR Path="/549878F0/6068E321/606D75A8" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D75A8" Ref="LED20"  Part="1" 
+AR Path="/549878F0/605673FE/606D75A8" Ref="LED20"  Part="1" 
+F 0 "LED20" H 3350 2450 50  0000 C CNN
+F 1 "LED_RGBA" H 3100 2556 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 3100 2100 50  0001 C CNN
+F 3 "~" H 3100 2100 50  0001 C CNN
+	1    3100 2150
+	1    0    0    -1  
+$EndComp
+Text Label 2900 1950 2    50   ~ 0
+Red1
+Text Label 2900 2150 2    50   ~ 0
+Green1
+Text Label 2900 2350 2    50   ~ 0
+Blue1
+Text Label 2900 2600 2    50   ~ 0
+Red2
+$Comp
+L Device:LED_RGBA LED48
+U 1 1 606D759E
+P 3100 2800
+AR Path="/54B2C0DD/606D759E" Ref="LED48"  Part="1" 
+AR Path="/549878F0/6068E321/606D759E" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D759E" Ref="LED19"  Part="1" 
+AR Path="/549878F0/605673FE/606D759E" Ref="LED19"  Part="1" 
+F 0 "LED19" H 3350 3100 50  0000 C CNN
+F 1 "LED_RGBA" H 3100 3206 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 3100 2750 50  0001 C CNN
+F 3 "~" H 3100 2750 50  0001 C CNN
+	1    3100 2800
+	1    0    0    -1  
+$EndComp
+Text Label 2900 2800 2    50   ~ 0
+Green2
+Text Label 2900 3000 2    50   ~ 0
+Blue2
+Text Label 2900 3250 2    50   ~ 0
+Red3
+Text Label 2900 3450 2    50   ~ 0
+Green3
+Text Label 2900 3650 2    50   ~ 0
+Blue3
+Wire Wire Line
+	3300 4100 3300 4600
+Wire Wire Line
+	3300 3450 3300 4100
+Connection ~ 3300 4100
+$Comp
+L Device:LED_RGBA LED50
+U 1 1 606D7593
+P 3100 4100
+AR Path="/54B2C0DD/606D7593" Ref="LED50"  Part="1" 
+AR Path="/549878F0/6068E321/606D7593" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7593" Ref="LED17"  Part="1" 
+AR Path="/549878F0/605673FE/606D7593" Ref="LED17"  Part="1" 
+F 0 "LED17" H 3350 4400 50  0000 C CNN
+F 1 "LED_RGBA" H 3100 4506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 3100 4050 50  0001 C CNN
+F 3 "~" H 3100 4050 50  0001 C CNN
+	1    3100 4100
+	1    0    0    -1  
+$EndComp
+Text Label 2900 3900 2    50   ~ 0
+Red4
+Text Label 2900 4100 2    50   ~ 0
+Green4
+Text Label 2900 4300 2    50   ~ 0
 Blue4
-Text Label 4000 3150 2    50   ~ 0
-Green4
-Text Label 4000 2950 2    50   ~ 0
-Red4
-$Comp
-L Device:LED_RGBA LED34
-U 1 1 6063FBDA
-P 4200 3150
-F 0 "LED34" H 4450 3450 50  0000 C CNN
-F 1 "LED_RGBA" H 4200 3556 50  0001 C CNN
-F 2 "" H 4200 3100 50  0001 C CNN
-F 3 "~" H 4200 3100 50  0001 C CNN
-	1    4200 3150
-	1    0    0    -1  
-$EndComp
-Text Label 4000 2700 2    50   ~ 0
-Blue3
-Text Label 4000 2500 2    50   ~ 0
-Green3
-$Comp
-L Device:LED_RGBA LED36
-U 1 1 6063FBD2
-P 4200 2500
-F 0 "LED36" H 4450 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 4200 2906 50  0001 C CNN
-F 2 "" H 4200 2450 50  0001 C CNN
-F 3 "~" H 4200 2450 50  0001 C CNN
-	1    4200 2500
-	1    0    0    -1  
-$EndComp
-Text Label 4000 2300 2    50   ~ 0
-Red3
-Text Label 4000 2050 2    50   ~ 0
-Blue2
-Text Label 4000 1850 2    50   ~ 0
-Green2
-$Comp
-L Device:LED_RGBA LED37
-U 1 1 6063FBC9
-P 4200 1850
-F 0 "LED37" H 4450 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 4200 2256 50  0001 C CNN
-F 2 "" H 4200 1800 50  0001 C CNN
-F 3 "~" H 4200 1800 50  0001 C CNN
-	1    4200 1850
-	1    0    0    -1  
-$EndComp
-Text Label 4000 1650 2    50   ~ 0
-Red2
-Text Label 4000 1400 2    50   ~ 0
-Blue1
-Text Label 4000 1200 2    50   ~ 0
-Green1
-Text Label 4000 1000 2    50   ~ 0
-Red1
-$Comp
-L Device:LED_RGBA LED38
-U 1 1 6063FBBF
-P 4200 1200
-F 0 "LED38" H 4450 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 4200 1606 50  0001 C CNN
-F 2 "" H 4200 1150 50  0001 C CNN
-F 3 "~" H 4200 1150 50  0001 C CNN
-	1    4200 1200
-	1    0    0    -1  
-$EndComp
-Connection ~ 3700 2500
 Wire Wire Line
-	3700 1850 3700 2500
-Connection ~ 3700 1850
+	3300 2150 3300 2800
+Connection ~ 3300 3450
+Connection ~ 3300 2800
 Wire Wire Line
-	3700 1200 3700 1850
-Text Label 3300 3350 2    50   ~ 0
+	3300 2800 3300 3450
+Wire Wire Line
+	1850 4050 1850 4650
+Connection ~ 1850 4050
+$Comp
+L Device:LED_RGBA LED42
+U 1 1 606D7587
+P 1650 4050
+AR Path="/54B2C0DD/606D7587" Ref="LED42"  Part="1" 
+AR Path="/549878F0/6068E321/606D7587" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7587" Ref="LED4"  Part="1" 
+AR Path="/549878F0/605673FE/606D7587" Ref="LED4"  Part="1" 
+F 0 "LED4" H 1900 4350 50  0000 C CNN
+F 1 "LED_RGBA" H 1650 4456 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 1650 4000 50  0001 C CNN
+F 3 "~" H 1650 4000 50  0001 C CNN
+	1    1650 4050
+	1    0    0    -1  
+$EndComp
+Text Label 2200 4250 2    50   ~ 0
 Blue4
-Text Label 3300 3150 2    50   ~ 0
+Text Label 2200 4050 2    50   ~ 0
 Green4
-Text Label 3300 2950 2    50   ~ 0
+Text Label 2200 3850 2    50   ~ 0
 Red4
+Wire Wire Line
+	2600 4050 2600 4650
+Connection ~ 2600 4050
 $Comp
-L Device:LED_RGBA LED26
-U 1 1 6063BECC
-P 3500 3150
-F 0 "LED26" H 3750 3450 50  0000 C CNN
-F 1 "LED_RGBA" H 3500 3556 50  0001 C CNN
-F 2 "" H 3500 3100 50  0001 C CNN
-F 3 "~" H 3500 3100 50  0001 C CNN
-	1    3500 3150
+L Device:LED_RGBA LED46
+U 1 1 606D7579
+P 2400 4050
+AR Path="/54B2C0DD/606D7579" Ref="LED46"  Part="1" 
+AR Path="/549878F0/6068E321/606D7579" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7579" Ref="LED11"  Part="1" 
+AR Path="/549878F0/605673FE/606D7579" Ref="LED11"  Part="1" 
+F 0 "LED11" H 2650 4350 50  0000 C CNN
+F 1 "LED_RGBA" H 2400 4456 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 2400 4000 50  0001 C CNN
+F 3 "~" H 2400 4000 50  0001 C CNN
+	1    2400 4050
 	1    0    0    -1  
 $EndComp
-Text Label 3300 2700 2    50   ~ 0
+Text Label 2200 3600 2    50   ~ 0
 Blue3
-Text Label 3300 2500 2    50   ~ 0
+Text Label 2200 3400 2    50   ~ 0
 Green3
+Wire Wire Line
+	2600 3400 2600 4050
+Connection ~ 2600 3400
 $Comp
-L Device:LED_RGBA LED27
-U 1 1 6063BEC4
-P 3500 2500
-F 0 "LED27" H 3750 2800 50  0000 C CNN
-F 1 "LED_RGBA" H 3500 2906 50  0001 C CNN
-F 2 "" H 3500 2450 50  0001 C CNN
-F 3 "~" H 3500 2450 50  0001 C CNN
-	1    3500 2500
+L Device:LED_RGBA LED45
+U 1 1 606D7571
+P 2400 3400
+AR Path="/54B2C0DD/606D7571" Ref="LED45"  Part="1" 
+AR Path="/549878F0/6068E321/606D7571" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7571" Ref="LED12"  Part="1" 
+AR Path="/549878F0/605673FE/606D7571" Ref="LED12"  Part="1" 
+F 0 "LED12" H 2650 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 2400 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 2400 3350 50  0001 C CNN
+F 3 "~" H 2400 3350 50  0001 C CNN
+	1    2400 3400
 	1    0    0    -1  
 $EndComp
-Text Label 3300 2300 2    50   ~ 0
+Text Label 2200 3200 2    50   ~ 0
 Red3
-Text Label 3300 2050 2    50   ~ 0
+Text Label 2200 2950 2    50   ~ 0
 Blue2
-Text Label 3300 1850 2    50   ~ 0
+Text Label 2200 2750 2    50   ~ 0
 Green2
+Wire Wire Line
+	2600 2750 2600 3400
+Wire Wire Line
+	2600 2100 2600 2750
+Connection ~ 2600 2750
 $Comp
-L Device:LED_RGBA LED28
-U 1 1 6063BEBB
-P 3500 1850
-F 0 "LED28" H 3750 2150 50  0000 C CNN
-F 1 "LED_RGBA" H 3500 2256 50  0001 C CNN
-F 2 "" H 3500 1800 50  0001 C CNN
-F 3 "~" H 3500 1800 50  0001 C CNN
-	1    3500 1850
+L Device:LED_RGBA LED44
+U 1 1 606D7568
+P 2400 2750
+AR Path="/54B2C0DD/606D7568" Ref="LED44"  Part="1" 
+AR Path="/549878F0/6068E321/606D7568" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7568" Ref="LED13"  Part="1" 
+AR Path="/549878F0/605673FE/606D7568" Ref="LED13"  Part="1" 
+F 0 "LED13" H 2650 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 2400 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 2400 2700 50  0001 C CNN
+F 3 "~" H 2400 2700 50  0001 C CNN
+	1    2400 2750
 	1    0    0    -1  
 $EndComp
-Text Label 3300 1650 2    50   ~ 0
+Text Label 2200 2550 2    50   ~ 0
 Red2
-Text Label 3300 1400 2    50   ~ 0
+Text Label 2200 2300 2    50   ~ 0
 Blue1
-Text Label 3300 1200 2    50   ~ 0
+Text Label 2200 2100 2    50   ~ 0
 Green1
-Text Label 3300 1000 2    50   ~ 0
+Text Label 2200 1900 2    50   ~ 0
 Red1
 $Comp
-L Device:LED_RGBA LED29
-U 1 1 6063BEB1
-P 3500 1200
-F 0 "LED29" H 3750 1500 50  0000 C CNN
-F 1 "LED_RGBA" H 3500 1606 50  0001 C CNN
-F 2 "" H 3500 1150 50  0001 C CNN
-F 3 "~" H 3500 1150 50  0001 C CNN
-	1    3500 1200
+L Device:LED_RGBA LED43
+U 1 1 606D755E
+P 2400 2100
+AR Path="/54B2C0DD/606D755E" Ref="LED43"  Part="1" 
+AR Path="/549878F0/6068E321/606D755E" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D755E" Ref="LED14"  Part="1" 
+AR Path="/549878F0/605673FE/606D755E" Ref="LED14"  Part="1" 
+F 0 "LED14" H 2650 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 2400 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 2400 2050 50  0001 C CNN
+F 3 "~" H 2400 2050 50  0001 C CNN
+	1    2400 2100
 	1    0    0    -1  
 $EndComp
-Connection ~ 3700 3150
-Connection ~ 4400 3150
+Text Label 1450 4250 2    50   ~ 0
+Blue4
+Text Label 1450 4050 2    50   ~ 0
+Green4
+Text Label 1450 3850 2    50   ~ 0
+Red4
+Text Label 1450 3600 2    50   ~ 0
+Blue3
+Text Label 1450 3400 2    50   ~ 0
+Green3
+Wire Wire Line
+	1850 3400 1850 4050
+Connection ~ 1850 3400
+$Comp
+L Device:LED_RGBA LED41
+U 1 1 606D754F
+P 1650 3400
+AR Path="/54B2C0DD/606D754F" Ref="LED41"  Part="1" 
+AR Path="/549878F0/6068E321/606D754F" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D754F" Ref="LED5"  Part="1" 
+AR Path="/549878F0/605673FE/606D754F" Ref="LED5"  Part="1" 
+F 0 "LED5" H 1900 3700 50  0000 C CNN
+F 1 "LED_RGBA" H 1650 3806 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 1650 3350 50  0001 C CNN
+F 3 "~" H 1650 3350 50  0001 C CNN
+	1    1650 3400
+	1    0    0    -1  
+$EndComp
+Text Label 1450 3200 2    50   ~ 0
+Red3
+Text Label 1450 2950 2    50   ~ 0
+Blue2
+Text Label 1450 2750 2    50   ~ 0
+Green2
+Wire Wire Line
+	1850 2750 1850 3400
+Wire Wire Line
+	1850 2100 1850 2750
+Connection ~ 1850 2750
+$Comp
+L Device:LED_RGBA LED40
+U 1 1 606D7546
+P 1650 2750
+AR Path="/54B2C0DD/606D7546" Ref="LED40"  Part="1" 
+AR Path="/549878F0/6068E321/606D7546" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D7546" Ref="LED6"  Part="1" 
+AR Path="/549878F0/605673FE/606D7546" Ref="LED6"  Part="1" 
+F 0 "LED6" H 1900 3050 50  0000 C CNN
+F 1 "LED_RGBA" H 1650 3156 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 1650 2700 50  0001 C CNN
+F 3 "~" H 1650 2700 50  0001 C CNN
+	1    1650 2750
+	1    0    0    -1  
+$EndComp
+Text Label 1450 2550 2    50   ~ 0
+Red2
+Text Label 1450 2300 2    50   ~ 0
+Blue1
+Text Label 1450 2100 2    50   ~ 0
+Green1
+Text Label 1450 1900 2    50   ~ 0
+Red1
+$Comp
+L Device:LED_RGBA LED39
+U 1 1 606D753C
+P 1650 2100
+AR Path="/54B2C0DD/606D753C" Ref="LED39"  Part="1" 
+AR Path="/549878F0/6068E321/606D753C" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D753C" Ref="LED7"  Part="1" 
+AR Path="/549878F0/605673FE/606D753C" Ref="LED7"  Part="1" 
+F 0 "LED7" H 1900 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 1650 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 1650 2050 50  0001 C CNN
+F 3 "~" H 1650 2050 50  0001 C CNN
+	1    1650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RGBA LED55
+U 1 1 606D76BA
+P 4600 2100
+AR Path="/54B2C0DD/606D76BA" Ref="LED55"  Part="1" 
+AR Path="/549878F0/6068E321/606D76BA" Ref="LED?"  Part="1" 
+AR Path="/549878F0/60748308/606D76BA" Ref="LED38"  Part="1" 
+AR Path="/549878F0/605673FE/606D76BA" Ref="LED38"  Part="1" 
+F 0 "LED38" H 4850 2400 50  0000 C CNN
+F 1 "LED_RGBA" H 4600 2506 50  0001 C CNN
+F 2 "prettylib:AAA3528SURKCGKC09" H 4600 2050 50  0001 C CNN
+F 3 "~" H 4600 2050 50  0001 C CNN
+	1    4600 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 3350
+Wire Wire Line
+	7950 3350 7950 3900
 $EndSCHEMATC

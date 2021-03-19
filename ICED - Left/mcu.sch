@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title "ICED-L"
 Date "2016-07-17"
 Rev "Rev 1.2b"
@@ -1316,4 +1316,10 @@ Text HLabel 10600 3400 0    39   Input ~ 0
 RGBIN
 Text HLabel 7850 2950 2    39   BiDi ~ 0
 PTB17
+$Sheet
+S 8650 5300 900  450 
+U 605673FE
+F0 "ledmatrix_2" 50
+F1 "ledmatrix.sch" 50
+$EndSheet
 $EndSCHEMATC
