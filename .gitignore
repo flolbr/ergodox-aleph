@@ -1,0 +1,12 @@
+/ICED - Left/ICEDLeft-cache.lib
+/ICED - Left/ICEDLeft.csv
+*.kicad_pcb-bak
+/ICED - Left/*.sch-bak
+/ICED - Left/_autosave-ICEDLeft.pro
+/ICED - Left/gerbers
+/ICED - Left/fp-info-cache
+/ICED - Left/gerbers.zip
+/ICED - Left/rescue-backup/
+/ICED - Left/sym-lib-table
+/ICED - Right/fp-info-cache
+/ICED - Right/sym-lib-table
