@@ -13,748 +13,833 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1100 1700 0    50   Output ~ 0
-RGBOUT
-Text HLabel 7150 5050 0    50   Input ~ 0
-RGBIN
-Text Label 6800 4850 0    50   ~ 0
-VSS
-Text Label 10350 5500 0    50   ~ 0
-VSS
 $Comp
-L ICEDLeft:SK6812MINI-E LED34
-U 1 1 60745018
-P 5150 5300
-F 0 "LED34" H 5100 5000 50  0000 R CNN
-F 1 "SK6812MINI-E" H 4656 5345 50  0001 R CNN
-F 2 "SK6812MINIE" H 6100 5400 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 6100 5300 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 6100 5200 50  0001 L CNN "Description"
-F 5 "1.88" H 6100 5100 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 6100 5000 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 6100 4900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5150 5300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7150 5050 7400 5050
-$Comp
-L ICEDLeft:SK6812MINI-E LED8
-U 1 1 607780D3
-P 6950 2600
-F 0 "LED8" H 7200 2900 50  0000 R CNN
-F 1 "SK6812MINI-E" H 6456 2645 50  0001 R CNN
-F 2 "SK6812MINIE" H 7900 2700 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 7900 2600 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 7900 2500 50  0001 L CNN "Description"
-F 5 "1.88" H 7900 2400 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 7900 2300 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 7900 2200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6950 2600
+L Device:LED_RGBA LED7
+U 1 1 605557E9
+P 1250 1200
+F 0 "LED7" H 1500 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 1250 1606 50  0001 C CNN
+F 2 "" H 1250 1150 50  0001 C CNN
+F 3 "~" H 1250 1150 50  0001 C CNN
+	1    1250 1200
 	1    0    0    -1  
 $EndComp
-Text Label 6750 3050 0    50   ~ 0
-VSS
+Text Label 1050 1000 2    50   ~ 0
+Red1
+Text Label 1050 1200 2    50   ~ 0
+Green1
+Text Label 1050 1400 2    50   ~ 0
+Blue1
+Text Label 1050 1650 2    50   ~ 0
+Red2
 $Comp
-L ICEDLeft:SK6812MINI-E LED1
-U 1 1 60792A2D
-P 6950 1700
-F 0 "LED1" H 6850 1400 50  0000 R CNN
-F 1 "SK6812MINI-E" H 6456 1745 50  0001 R CNN
-F 2 "SK6812MINIE" H 7900 1800 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 7900 1700 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 7900 1600 50  0001 L CNN "Description"
-F 5 "1.88" H 7900 1500 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 7900 1400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 7900 1300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6950 1700
-	-1   0    0    1   
-$EndComp
-Text Label 6800 1250 0    50   ~ 0
-VSS
-Text Label 6750 2150 0    50   ~ 0
-VDD
-Text Label 5000 5750 0    50   ~ 0
-VDD
-Wire Wire Line
-	5600 5950 5600 5300
-Wire Wire Line
-	9200 5950 5600 5950
-Wire Wire Line
-	11100 4600 11100 6400
-Text Label 10400 6400 0    50   ~ 0
-VDD
-Wire Wire Line
-	11000 5050 11000 5950
-Wire Wire Line
-	10550 5600 10550 5500
-Wire Wire Line
-	9650 5500 10550 5500
-Connection ~ 9650 5500
-$Comp
-L ICEDLeft:SK6812MINI-E LED33
-U 1 1 607C00FC
-P 9650 5950
-F 0 "LED33" H 9600 5650 50  0000 R CNN
-F 1 "SK6812MINI-E" H 9156 5995 50  0001 R CNN
-F 2 "SK6812MINIE" H 10600 6050 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 10600 5950 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 10600 5850 50  0001 L CNN "Description"
-F 5 "1.88" H 10600 5750 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 10600 5650 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 10600 5550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9650 5950
-	-1   0    0    1   
-$EndComp
-Connection ~ 10550 5500
-Wire Wire Line
-	11100 6400 10550 6400
-Wire Wire Line
-	10550 6400 9650 6400
-Connection ~ 10550 6400
-$Comp
-L ICEDLeft:SK6812MINI-E LED32
-U 1 1 607BECB8
-P 10550 5950
-F 0 "LED32" H 10500 5650 50  0000 R CNN
-F 1 "SK6812MINI-E" H 10056 5995 50  0001 R CNN
-F 2 "SK6812MINIE" H 11500 6050 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 11500 5950 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 11500 5850 50  0001 L CNN "Description"
-F 5 "1.88" H 11500 5750 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 11500 5650 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 11500 5550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10550 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10550 4600 11100 4600
-Connection ~ 10550 4600
-$Comp
-L ICEDLeft:SK6812MINI-E LED31
-U 1 1 607B923F
-P 10550 5050
-F 0 "LED31" H 10800 5350 50  0000 R CNN
-F 1 "SK6812MINI-E" H 10056 5095 50  0001 R CNN
-F 2 "SK6812MINIE" H 11500 5150 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 11500 5050 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 11500 4950 50  0001 L CNN "Description"
-F 5 "1.88" H 11500 4850 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 11500 4750 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 11500 4650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10550 5050
+L Device:LED_RGBA LED6
+U 1 1 60558275
+P 1250 1850
+F 0 "LED6" H 1500 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 1250 2256 50  0001 C CNN
+F 2 "" H 1250 1800 50  0001 C CNN
+F 3 "~" H 1250 1800 50  0001 C CNN
+	1    1250 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10550 4600 9650 4600
-Connection ~ 9650 4600
+Text Label 1050 1850 2    50   ~ 0
+Green2
+Text Label 1050 2050 2    50   ~ 0
+Blue2
+Text Label 1050 2300 2    50   ~ 0
+Red3
 $Comp
-L ICEDLeft:SK6812MINI-E LED30
-U 1 1 607B8B02
-P 9650 5050
-F 0 "LED30" H 9900 5350 50  0000 R CNN
-F 1 "SK6812MINI-E" H 9156 5095 50  0001 R CNN
-F 2 "SK6812MINIE" H 10600 5150 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 10600 5050 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 10600 4950 50  0001 L CNN "Description"
-F 5 "1.88" H 10600 4850 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 10600 4750 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 10600 4650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9650 5050
+L Device:LED_RGBA LED5
+U 1 1 60560C0C
+P 1250 2500
+F 0 "LED5" H 1500 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 1250 2906 50  0001 C CNN
+F 2 "" H 1250 2450 50  0001 C CNN
+F 3 "~" H 1250 2450 50  0001 C CNN
+	1    1250 2500
 	1    0    0    -1  
 $EndComp
+Text Label 1050 2500 2    50   ~ 0
+Green3
+Text Label 1050 2700 2    50   ~ 0
+Blue3
+Text Label 1050 2950 2    50   ~ 0
+Red4
+Text Label 1050 3150 2    50   ~ 0
+Green4
+Text Label 1050 3350 2    50   ~ 0
+Blue4
 Wire Wire Line
-	8750 5500 9650 5500
+	1450 1200 1450 1850
+Connection ~ 1450 1850
 Wire Wire Line
-	7850 5500 8750 5500
-Connection ~ 8750 5500
-Wire Wire Line
-	9650 4600 8750 4600
-Wire Wire Line
-	8750 4600 7850 4600
-Connection ~ 8750 4600
+	1450 1850 1450 2500
+Connection ~ 1450 2500
 $Comp
-L ICEDLeft:SK6812MINI-E LED21
-U 1 1 607B824C
-P 8750 5050
-F 0 "LED21" H 9000 5350 50  0000 R CNN
-F 1 "SK6812MINI-E" H 8256 5095 50  0001 R CNN
-F 2 "SK6812MINIE" H 9700 5150 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 9700 5050 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 9700 4950 50  0001 L CNN "Description"
-F 5 "1.88" H 9700 4850 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 9700 4750 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 9700 4650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8750 5050
+L Device:LED_RGBA LED14
+U 1 1 605833D3
+P 2000 1200
+F 0 "LED14" H 2250 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 2000 1606 50  0001 C CNN
+F 2 "" H 2000 1150 50  0001 C CNN
+F 3 "~" H 2000 1150 50  0001 C CNN
+	1    2000 1200
 	1    0    0    -1  
 $EndComp
+Text Label 1800 1000 2    50   ~ 0
+Red1
+Text Label 1800 1200 2    50   ~ 0
+Green1
+Text Label 1800 1400 2    50   ~ 0
+Blue1
+Text Label 1800 1650 2    50   ~ 0
+Red2
 $Comp
-L ICEDLeft:SK6812MINI-E LED22
-U 1 1 607B7953
-P 7850 5050
-F 0 "LED22" H 8100 5350 50  0000 R CNN
-F 1 "SK6812MINI-E" H 7356 5095 50  0001 R CNN
-F 2 "SK6812MINIE" H 8800 5150 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 8800 5050 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 8800 4950 50  0001 L CNN "Description"
-F 5 "1.88" H 8800 4850 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 8800 4750 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 8800 4650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    7850 5050
+L Device:LED_RGBA LED13
+U 1 1 605833DD
+P 2000 1850
+F 0 "LED13" H 2250 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 2000 2256 50  0001 C CNN
+F 2 "" H 2000 1800 50  0001 C CNN
+F 3 "~" H 2000 1800 50  0001 C CNN
+	1    2000 1850
+	1    0    0    -1  
+$EndComp
+Text Label 1800 1850 2    50   ~ 0
+Green2
+Text Label 1800 2050 2    50   ~ 0
+Blue2
+Text Label 1800 2300 2    50   ~ 0
+Red3
+$Comp
+L Device:LED_RGBA LED12
+U 1 1 605833E6
+P 2000 2500
+F 0 "LED12" H 2250 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 2000 2906 50  0001 C CNN
+F 2 "" H 2000 2450 50  0001 C CNN
+F 3 "~" H 2000 2450 50  0001 C CNN
+	1    2000 2500
+	1    0    0    -1  
+$EndComp
+Text Label 1800 2500 2    50   ~ 0
+Green3
+Text Label 1800 2700 2    50   ~ 0
+Blue3
+$Comp
+L Device:LED_RGBA LED11
+U 1 1 605833EE
+P 2000 3150
+F 0 "LED11" H 2250 3450 50  0000 C CNN
+F 1 "LED_RGBA" H 2000 3556 50  0001 C CNN
+F 2 "" H 2000 3100 50  0001 C CNN
+F 3 "~" H 2000 3100 50  0001 C CNN
+	1    2000 3150
+	1    0    0    -1  
+$EndComp
+Text Label 1800 2950 2    50   ~ 0
+Red4
+Text Label 1800 3150 2    50   ~ 0
+Green4
+Text Label 1800 3350 2    50   ~ 0
+Blue4
+Wire Wire Line
+	2200 1200 2200 1850
+Connection ~ 2200 1850
+Wire Wire Line
+	2200 1850 2200 2500
+Connection ~ 2200 2500
+Wire Wire Line
+	2200 2500 2200 3150
+Wire Wire Line
+	1400 2950 1450 2950
+Wire Wire Line
+	1450 2500 1450 2950
+Connection ~ 1450 2950
+Wire Wire Line
+	1450 2950 1450 3150
+$Comp
+L Device:LED_RGBA LED4
+U 1 1 605627A6
+P 1250 3150
+F 0 "LED4" H 1500 3450 50  0000 C CNN
+F 1 "LED_RGBA" H 1250 3556 50  0001 C CNN
+F 2 "" H 1250 3100 50  0001 C CNN
+F 3 "~" H 1250 3100 50  0001 C CNN
+	1    1250 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 2600 7400 1700
+	2900 1900 2900 2550
+Connection ~ 2900 1900
+Wire Wire Line
+	2900 1250 2900 1900
+Text Label 2500 3400 2    50   ~ 0
+Blue4
+Text Label 2500 3200 2    50   ~ 0
+Green4
+Text Label 2500 3000 2    50   ~ 0
+Red4
 $Comp
-L ICEDLeft:SK6812MINI-E LED7
-U 1 1 607994E5
-P 1550 1700
-F 0 "LED7" H 1450 1400 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1056 1745 50  0001 R CNN
-F 2 "SK6812MINIE" H 2500 1800 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 2500 1700 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 2500 1600 50  0001 L CNN "Description"
-F 5 "1.88" H 2500 1500 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 2500 1400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 2500 1300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1550 1700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2450 1250 1550 1250
-Connection ~ 2450 1250
-$Comp
-L ICEDLeft:SK6812MINI-E LED6
-U 1 1 60798E75
-P 2450 1700
-F 0 "LED6" H 2350 1400 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1956 1745 50  0001 R CNN
-F 2 "SK6812MINIE" H 3400 1800 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 3400 1700 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 3400 1600 50  0001 L CNN "Description"
-F 5 "1.88" H 3400 1500 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 3400 1400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 3400 1300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2450 1700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3350 1250 2450 1250
-Connection ~ 3350 1250
-$Comp
-L ICEDLeft:SK6812MINI-E LED5
-U 1 1 60798647
-P 3350 1700
-F 0 "LED5" H 3250 1400 50  0000 R CNN
-F 1 "SK6812MINI-E" H 2856 1745 50  0001 R CNN
-F 2 "SK6812MINIE" H 4300 1800 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 4300 1700 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 4300 1600 50  0001 L CNN "Description"
-F 5 "1.88" H 4300 1500 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 4300 1400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 4300 1300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3350 1700
-	-1   0    0    1   
-$EndComp
-Connection ~ 3350 2150
-Wire Wire Line
-	2450 2150 3350 2150
-Connection ~ 6950 2150
-Connection ~ 2450 2150
-Wire Wire Line
-	1550 2150 2450 2150
-Wire Wire Line
-	4250 1250 3350 1250
-Connection ~ 4250 1250
-Wire Wire Line
-	3350 2150 4250 2150
-Connection ~ 4250 2150
-$Comp
-L ICEDLeft:SK6812MINI-E LED4
-U 1 1 60795A42
-P 4250 1700
-F 0 "LED4" H 4150 1400 50  0000 R CNN
-F 1 "SK6812MINI-E" H 3756 1745 50  0001 R CNN
-F 2 "SK6812MINIE" H 5200 1800 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 5200 1700 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 5200 1600 50  0001 L CNN "Description"
-F 5 "1.88" H 5200 1500 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 5200 1400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 5200 1300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4250 1700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5150 1250 4250 1250
-Connection ~ 5150 1250
-Wire Wire Line
-	4250 2150 5150 2150
-Connection ~ 5150 2150
-$Comp
-L ICEDLeft:SK6812MINI-E LED3
-U 1 1 60793A2D
-P 5150 1700
-F 0 "LED3" H 5050 1400 50  0000 R CNN
-F 1 "SK6812MINI-E" H 4656 1745 50  0001 R CNN
-F 2 "SK6812MINIE" H 6100 1800 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 6100 1700 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 6100 1600 50  0001 L CNN "Description"
-F 5 "1.88" H 6100 1500 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 6100 1400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 6100 1300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5150 1700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6050 1250 5150 1250
-Wire Wire Line
-	6950 1250 6050 1250
-Connection ~ 6050 1250
-Wire Wire Line
-	6050 2150 6950 2150
-Wire Wire Line
-	5150 2150 6050 2150
-Connection ~ 6050 2150
-$Comp
-L ICEDLeft:SK6812MINI-E LED2
-U 1 1 60793549
-P 6050 1700
-F 0 "LED2" H 5950 1400 50  0000 R CNN
-F 1 "SK6812MINI-E" H 5556 1745 50  0001 R CNN
-F 2 "SK6812MINIE" H 7000 1800 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 7000 1700 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 7000 1600 50  0001 L CNN "Description"
-F 5 "1.88" H 7000 1500 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 7000 1400 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 7000 1300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6050 1700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7400 4400 7400 3500
-Wire Wire Line
-	1100 3500 1100 2600
-Wire Wire Line
-	6050 3050 6950 3050
-Connection ~ 6050 3050
-$Comp
-L ICEDLeft:SK6812MINI-E LED9
-U 1 1 607776B5
-P 6050 2600
-F 0 "LED9" H 6300 2900 50  0000 R CNN
-F 1 "SK6812MINI-E" H 5556 2645 50  0001 R CNN
-F 2 "SK6812MINIE" H 7000 2700 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 7000 2600 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 7000 2500 50  0001 L CNN "Description"
-F 5 "1.88" H 7000 2400 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 7000 2300 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 7000 2200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6050 2600
+L Device:LED_RGBA LED17
+U 1 1 6058A5A5
+P 2700 3200
+F 0 "LED17" H 2950 3500 50  0000 C CNN
+F 1 "LED_RGBA" H 2700 3606 50  0001 C CNN
+F 2 "" H 2700 3150 50  0001 C CNN
+F 3 "~" H 2700 3150 50  0001 C CNN
+	1    2700 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 3050 6050 3050
-Connection ~ 5150 3050
+Text Label 2500 2750 2    50   ~ 0
+Blue3
+Text Label 2500 2550 2    50   ~ 0
+Green3
+Text Label 2500 2350 2    50   ~ 0
+Red3
+Text Label 2500 2100 2    50   ~ 0
+Blue2
+Text Label 2500 1900 2    50   ~ 0
+Green2
 $Comp
-L ICEDLeft:SK6812MINI-E LED10
-U 1 1 6077726A
-P 5150 2600
-F 0 "LED10" H 5400 2900 50  0000 R CNN
-F 1 "SK6812MINI-E" H 4656 2645 50  0001 R CNN
-F 2 "SK6812MINIE" H 6100 2700 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 6100 2600 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 6100 2500 50  0001 L CNN "Description"
-F 5 "1.88" H 6100 2400 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 6100 2300 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 6100 2200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5150 2600
+L Device:LED_RGBA LED19
+U 1 1 6058A594
+P 2700 1900
+F 0 "LED19" H 2950 2200 50  0000 C CNN
+F 1 "LED_RGBA" H 2700 2306 50  0001 C CNN
+F 2 "" H 2700 1850 50  0001 C CNN
+F 3 "~" H 2700 1850 50  0001 C CNN
+	1    2700 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 3050 5150 3050
-Connection ~ 4250 3050
+Text Label 2500 1700 2    50   ~ 0
+Red2
+Text Label 2500 1450 2    50   ~ 0
+Blue1
+Text Label 2500 1250 2    50   ~ 0
+Green1
+Text Label 2500 1050 2    50   ~ 0
+Red1
 $Comp
-L ICEDLeft:SK6812MINI-E LED11
-U 1 1 60776982
-P 4250 2600
-F 0 "LED11" H 4500 2900 50  0000 R CNN
-F 1 "SK6812MINI-E" H 3756 2645 50  0001 R CNN
-F 2 "SK6812MINIE" H 5200 2700 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 5200 2600 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 5200 2500 50  0001 L CNN "Description"
-F 5 "1.88" H 5200 2400 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 5200 2300 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 5200 2200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4250 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 3050 4250 3050
-Connection ~ 3350 3050
-$Comp
-L ICEDLeft:SK6812MINI-E LED12
-U 1 1 607764DA
-P 3350 2600
-F 0 "LED12" H 3600 2900 50  0000 R CNN
-F 1 "SK6812MINI-E" H 2856 2645 50  0001 R CNN
-F 2 "SK6812MINIE" H 4300 2700 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 4300 2600 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 4300 2500 50  0001 L CNN "Description"
-F 5 "1.88" H 4300 2400 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 4300 2300 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 4300 2200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3350 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 3050 3350 3050
-Wire Wire Line
-	1550 3050 2450 3050
-Connection ~ 2450 3050
-$Comp
-L ICEDLeft:SK6812MINI-E LED13
-U 1 1 6077600E
-P 2450 2600
-F 0 "LED13" H 2700 2900 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1956 2645 50  0001 R CNN
-F 2 "SK6812MINIE" H 3400 2700 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 3400 2600 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 3400 2500 50  0001 L CNN "Description"
-F 5 "1.88" H 3400 2400 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 3400 2300 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 3400 2200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2450 2600
-	1    0    0    -1  
-$EndComp
-Connection ~ 1550 2150
-$Comp
-L ICEDLeft:SK6812MINI-E LED14
-U 1 1 607723D6
-P 1550 2600
-F 0 "LED14" H 1800 2900 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1056 2645 50  0001 R CNN
-F 2 "SK6812MINIE" H 2500 2700 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 2500 2600 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 2500 2500 50  0001 L CNN "Description"
-F 5 "1.88" H 2500 2400 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 2500 2300 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 2500 2200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1550 2600
-	1    0    0    -1  
-$EndComp
-Text Label 6800 3950 0    50   ~ 0
-VDD
-Wire Wire Line
-	6050 4150 6050 3950
-Wire Wire Line
-	7400 3500 6500 3500
-Connection ~ 1550 3050
-$Comp
-L ICEDLeft:SK6812MINI-E LED20
-U 1 1 6075E8DD
-P 1550 3500
-F 0 "LED20" H 1450 3200 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1056 3545 50  0001 R CNN
-F 2 "SK6812MINIE" H 2500 3600 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 2500 3500 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 2500 3400 50  0001 L CNN "Description"
-F 5 "1.88" H 2500 3300 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 2500 3200 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 2500 3100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1550 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L ICEDLeft:SK6812MINI-E LED19
-U 1 1 6075E146
-P 2450 3500
-F 0 "LED19" H 2350 3200 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1956 3545 50  0001 R CNN
-F 2 "SK6812MINIE" H 3400 3600 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 3400 3500 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 3400 3400 50  0001 L CNN "Description"
-F 5 "1.88" H 3400 3300 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 3400 3200 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 3400 3100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2450 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L ICEDLeft:SK6812MINI-E LED18
-U 1 1 6075DB23
-P 3350 3500
-F 0 "LED18" H 3250 3200 50  0000 R CNN
-F 1 "SK6812MINI-E" H 2856 3545 50  0001 R CNN
-F 2 "SK6812MINIE" H 4300 3600 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 4300 3500 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 4300 3400 50  0001 L CNN "Description"
-F 5 "1.88" H 4300 3300 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 4300 3200 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 4300 3100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3350 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L ICEDLeft:SK6812MINI-E LED17
-U 1 1 6075D216
-P 4250 3500
-F 0 "LED17" H 4150 3200 50  0000 R CNN
-F 1 "SK6812MINI-E" H 3756 3545 50  0001 R CNN
-F 2 "SK6812MINIE" H 5200 3600 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 5200 3500 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 5200 3400 50  0001 L CNN "Description"
-F 5 "1.88" H 5200 3300 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 5200 3200 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 5200 3100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4250 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L ICEDLeft:SK6812MINI-E LED16
-U 1 1 6075CA82
-P 5150 3500
-F 0 "LED16" H 5050 3200 50  0000 R CNN
-F 1 "SK6812MINI-E" H 4656 3545 50  0001 R CNN
-F 2 "SK6812MINIE" H 6100 3600 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 6100 3500 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 6100 3400 50  0001 L CNN "Description"
-F 5 "1.88" H 6100 3300 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 6100 3200 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 6100 3100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5150 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L ICEDLeft:SK6812MINI-E LED15
-U 1 1 6075BE6A
-P 6050 3500
-F 0 "LED15" H 5950 3200 50  0000 R CNN
-F 1 "SK6812MINI-E" H 5556 3545 50  0001 R CNN
-F 2 "SK6812MINIE" H 7000 3600 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 7000 3500 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 7000 3400 50  0001 L CNN "Description"
-F 5 "1.88" H 7000 3300 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 7000 3200 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 7000 3100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6050 3500
-	-1   0    0    1   
-$EndComp
-Connection ~ 6050 3950
-Wire Wire Line
-	5150 3950 6050 3950
-Connection ~ 5150 3950
-Wire Wire Line
-	5150 3950 4250 3950
-Connection ~ 4250 3950
-Wire Wire Line
-	4250 3950 3350 3950
-Connection ~ 3350 3950
-Wire Wire Line
-	3350 3950 2450 3950
-Wire Wire Line
-	2450 3950 1550 3950
-Connection ~ 2450 3950
-Wire Wire Line
-	6950 3950 6050 3950
-$Comp
-L ICEDLeft:SK6812MINI-E LED23
-U 1 1 60756BCE
-P 6950 4400
-F 0 "LED23" H 7200 4700 50  0000 R CNN
-F 1 "SK6812MINI-E" H 6456 4445 50  0001 R CNN
-F 2 "SK6812MINIE" H 7900 4500 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 7900 4400 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 7900 4300 50  0001 L CNN "Description"
-F 5 "1.88" H 7900 4200 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 7900 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 7900 4000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6950 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 4850 5150 4650
-Wire Wire Line
-	4250 4850 5150 4850
-Wire Wire Line
-	4950 4850 5150 4850
-Connection ~ 5150 4850
-Wire Wire Line
-	6050 4850 6950 4850
-Wire Wire Line
-	5150 4850 6050 4850
-Connection ~ 6050 4850
-$Comp
-L ICEDLeft:SK6812MINI-E LED24
-U 1 1 60753F09
-P 6050 4400
-F 0 "LED24" H 6300 4700 50  0000 R CNN
-F 1 "SK6812MINI-E" H 5556 4445 50  0001 R CNN
-F 2 "SK6812MINIE" H 7000 4500 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 7000 4400 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 7000 4300 50  0001 L CNN "Description"
-F 5 "1.88" H 7000 4200 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 7000 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 7000 4000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6050 4400
+L Device:LED_RGBA LED20
+U 1 1 6058A58A
+P 2700 1250
+F 0 "LED20" H 2950 1550 50  0000 C CNN
+F 1 "LED_RGBA" H 2700 1656 50  0001 C CNN
+F 2 "" H 2700 1200 50  0001 C CNN
+F 3 "~" H 2700 1200 50  0001 C CNN
+	1    2700 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L ICEDLeft:SK6812MINI-E LED25
-U 1 1 607539A1
-P 5150 4400
-F 0 "LED25" H 5400 4700 50  0000 R CNN
-F 1 "SK6812MINI-E" H 4656 4445 50  0001 R CNN
-F 2 "SK6812MINIE" H 6100 4500 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 6100 4400 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 6100 4300 50  0001 L CNN "Description"
-F 5 "1.88" H 6100 4200 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 6100 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 6100 4000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5150 4400
+L Device:LED_RGBA LED1
+U 1 1 6065777F
+P 5900 1200
+F 0 "LED1" H 6150 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 5900 1606 50  0001 C CNN
+F 2 "" H 5900 1150 50  0001 C CNN
+F 3 "~" H 5900 1150 50  0001 C CNN
+	1    5900 1200
 	1    0    0    -1  
 $EndComp
+Text Label 5700 1650 2    50   ~ 0
+Red2
 $Comp
-L ICEDLeft:SK6812MINI-E LED26
-U 1 1 6075345A
-P 4250 4400
-F 0 "LED26" H 4500 4700 50  0000 R CNN
-F 1 "SK6812MINI-E" H 3756 4445 50  0001 R CNN
-F 2 "SK6812MINIE" H 5200 4500 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 5200 4400 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 5200 4300 50  0001 L CNN "Description"
-F 5 "1.88" H 5200 4200 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 5200 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 5200 4000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4250 4400
+L Device:LED_RGBA LED2
+U 1 1 60657788
+P 5900 1850
+F 0 "LED2" H 6150 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 5900 2256 50  0001 C CNN
+F 2 "" H 5900 1800 50  0001 C CNN
+F 3 "~" H 5900 1800 50  0001 C CNN
+	1    5900 1850
 	1    0    0    -1  
 $EndComp
+Text Label 5700 2300 2    50   ~ 0
+Red3
 $Comp
-L ICEDLeft:SK6812MINI-E LED27
-U 1 1 607531A0
-P 3350 4400
-F 0 "LED27" H 3600 4700 50  0000 R CNN
-F 1 "SK6812MINI-E" H 2856 4445 50  0001 R CNN
-F 2 "SK6812MINIE" H 4300 4500 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 4300 4400 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 4300 4300 50  0001 L CNN "Description"
-F 5 "1.88" H 4300 4200 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 4300 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 4300 4000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3350 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L ICEDLeft:SK6812MINI-E LED28
-U 1 1 6075286F
-P 2450 4400
-F 0 "LED28" H 2700 4700 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1956 4445 50  0001 R CNN
-F 2 "SK6812MINIE" H 3400 4500 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 3400 4400 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 3400 4300 50  0001 L CNN "Description"
-F 5 "1.88" H 3400 4200 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 3400 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 3400 4000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2450 4400
+L Device:LED_RGBA LED3
+U 1 1 60657791
+P 5900 2500
+F 0 "LED3" H 6150 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 5900 2906 50  0001 C CNN
+F 2 "" H 5900 2450 50  0001 C CNN
+F 3 "~" H 5900 2450 50  0001 C CNN
+	1    5900 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 5300 1100 4400
-Connection ~ 1550 3950
+	6100 1200 6100 1850
+Connection ~ 6100 1850
+Wire Wire Line
+	6100 1850 6100 2500
 $Comp
-L ICEDLeft:SK6812MINI-E LED29
-U 1 1 6074FC37
-P 1550 4400
-F 0 "LED29" H 1800 4700 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1056 4445 50  0001 R CNN
-F 2 "SK6812MINIE" H 2500 4500 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 2500 4400 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 2500 4300 50  0001 L CNN "Description"
-F 5 "1.88" H 2500 4200 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 2500 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 2500 4000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1550 4400
+L Device:LED_RGBA LED8
+U 1 1 60667DF7
+P 6600 1200
+F 0 "LED8" H 6850 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 6600 1606 50  0001 C CNN
+F 2 "" H 6600 1150 50  0001 C CNN
+F 3 "~" H 6600 1150 50  0001 C CNN
+	1    6600 1200
 	1    0    0    -1  
 $EndComp
-Connection ~ 4250 4850
-Wire Wire Line
-	3350 4850 4250 4850
-Connection ~ 3350 4850
-Wire Wire Line
-	2450 4850 3350 4850
-Connection ~ 2450 4850
-Wire Wire Line
-	1550 4850 2450 4850
-Connection ~ 1550 4850
+Text Label 6400 1200 2    50   ~ 0
+Green1
+Text Label 6400 1400 2    50   ~ 0
+Blue1
+Text Label 6400 1650 2    50   ~ 0
+Red2
 $Comp
-L ICEDLeft:SK6812MINI-E LED38
-U 1 1 6074BFD0
-P 1550 5300
-F 0 "LED38" H 1500 5000 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1056 5345 50  0001 R CNN
-F 2 "SK6812MINIE" H 2500 5400 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 2500 5300 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 2500 5200 50  0001 L CNN "Description"
-F 5 "1.88" H 2500 5100 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 2500 5000 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 2500 4900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1550 5300
+L Device:LED_RGBA LED9
+U 1 1 60667E00
+P 6600 1850
+F 0 "LED9" H 6850 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 6600 2256 50  0001 C CNN
+F 2 "" H 6600 1800 50  0001 C CNN
+F 3 "~" H 6600 1800 50  0001 C CNN
+	1    6600 1850
+	1    0    0    -1  
+$EndComp
+Text Label 6400 1850 2    50   ~ 0
+Green2
+Text Label 6400 2050 2    50   ~ 0
+Blue2
+Text Label 6400 2300 2    50   ~ 0
+Red3
+$Comp
+L Device:LED_RGBA LED10
+U 1 1 60667E09
+P 6600 2500
+F 0 "LED10" H 6850 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 6600 2906 50  0001 C CNN
+F 2 "" H 6600 2450 50  0001 C CNN
+F 3 "~" H 6600 2450 50  0001 C CNN
+	1    6600 2500
+	1    0    0    -1  
+$EndComp
+Text Label 6400 2500 2    50   ~ 0
+Green3
+Text Label 6400 2700 2    50   ~ 0
+Blue3
+Wire Wire Line
+	6800 1200 6800 1850
+Connection ~ 6800 1850
+Wire Wire Line
+	6800 1850 6800 2500
+Text Label 7150 1150 2    50   ~ 0
+Green1
+Text Label 7150 1350 2    50   ~ 0
+Blue1
+Text Label 7150 1600 2    50   ~ 0
+Red2
+$Comp
+L Device:LED_RGBA LED15
+U 1 1 60671169
+P 7350 1800
+F 0 "LED15" H 7600 2100 50  0000 C CNN
+F 1 "LED_RGBA" H 7350 2206 50  0001 C CNN
+F 2 "" H 7350 1750 50  0001 C CNN
+F 3 "~" H 7350 1750 50  0001 C CNN
+	1    7350 1800
+	1    0    0    -1  
+$EndComp
+Text Label 7150 1800 2    50   ~ 0
+Green2
+Text Label 7150 2000 2    50   ~ 0
+Blue2
+Text Label 7150 2250 2    50   ~ 0
+Red3
+Text Label 7150 2450 2    50   ~ 0
+Green3
+Text Label 7150 2650 2    50   ~ 0
+Blue3
+$Comp
+L Device:LED_RGBA LED23
+U 1 1 60673351
+P 8150 1200
+F 0 "LED23" H 8400 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 8150 1606 50  0001 C CNN
+F 2 "" H 8150 1150 50  0001 C CNN
+F 3 "~" H 8150 1150 50  0001 C CNN
+	1    8150 1200
+	1    0    0    -1  
+$EndComp
+Text Label 7950 1200 2    50   ~ 0
+Green1
+Text Label 7950 1400 2    50   ~ 0
+Blue1
+Text Label 7950 1650 2    50   ~ 0
+Red2
+$Comp
+L Device:LED_RGBA LED24
+U 1 1 6067335A
+P 8150 1850
+F 0 "LED24" H 8400 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 8150 2256 50  0001 C CNN
+F 2 "" H 8150 1800 50  0001 C CNN
+F 3 "~" H 8150 1800 50  0001 C CNN
+	1    8150 1850
+	1    0    0    -1  
+$EndComp
+Text Label 7950 1850 2    50   ~ 0
+Green2
+Text Label 7950 2050 2    50   ~ 0
+Blue2
+Text Label 7950 2300 2    50   ~ 0
+Red3
+$Comp
+L Device:LED_RGBA LED25
+U 1 1 60673363
+P 8150 2500
+F 0 "LED25" H 8400 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 8150 2906 50  0001 C CNN
+F 2 "" H 8150 2450 50  0001 C CNN
+F 3 "~" H 8150 2450 50  0001 C CNN
+	1    8150 2500
+	1    0    0    -1  
+$EndComp
+Text Label 7950 2500 2    50   ~ 0
+Green3
+Text Label 7950 2700 2    50   ~ 0
+Blue3
+Wire Wire Line
+	8350 1200 8350 1850
+Connection ~ 8350 1850
+$Comp
+L Device:LED_RGBA LED21
+U 1 1 60676DA8
+P 8850 1200
+F 0 "LED21" H 9100 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 8850 1606 50  0001 C CNN
+F 2 "" H 8850 1150 50  0001 C CNN
+F 3 "~" H 8850 1150 50  0001 C CNN
+	1    8850 1200
+	1    0    0    -1  
+$EndComp
+Text Label 8650 1200 2    50   ~ 0
+Green1
+Text Label 8650 1400 2    50   ~ 0
+Blue1
+Text Label 8650 1650 2    50   ~ 0
+Red2
+$Comp
+L Device:LED_RGBA LED22
+U 1 1 60676DB1
+P 8850 1850
+F 0 "LED22" H 9100 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 8850 2256 50  0001 C CNN
+F 2 "" H 8850 1800 50  0001 C CNN
+F 3 "~" H 8850 1800 50  0001 C CNN
+	1    8850 1850
+	1    0    0    -1  
+$EndComp
+Text Label 8650 1850 2    50   ~ 0
+Green2
+Text Label 8650 2050 2    50   ~ 0
+Blue2
+Text Label 8650 2300 2    50   ~ 0
+Red3
+$Comp
+L Device:LED_RGBA LED30
+U 1 1 60676DBA
+P 8850 2500
+F 0 "LED30" H 9100 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 8850 2906 50  0001 C CNN
+F 2 "" H 8850 2450 50  0001 C CNN
+F 3 "~" H 8850 2450 50  0001 C CNN
+	1    8850 2500
+	1    0    0    -1  
+$EndComp
+Text Label 8650 2500 2    50   ~ 0
+Green3
+Text Label 8650 2700 2    50   ~ 0
+Blue3
+Wire Wire Line
+	9050 1200 9050 1850
+Connection ~ 9050 1850
+Connection ~ 1450 3150
+Wire Wire Line
+	1450 3150 1450 3750
+Text Label 1450 3750 2    50   ~ 0
+Row1A
+Wire Wire Line
+	6100 2500 6100 3100
+Text Label 6100 3100 2    50   ~ 0
+Row1B
+Text Label 4500 5650 0    50   ~ 0
+Red1
+Text Label 4500 5550 0    50   ~ 0
+Green1
+$Comp
+L ICEDLeft:IS31FL3737-QFLS4-TR U2
+U 1 1 606B7ED1
+P 4500 5650
+F 0 "U2" H 5350 4700 50  0000 R CNN
+F 1 "IS31FL3737-QFLS4-TR" H 4456 5245 50  0001 R CNN
+F 2 "QFN40P500X500X80-41N-D" H 5950 6150 50  0001 L CNN
+F 3 "http://www.issi.com/WW/pdf/31FL3737.pdf" H 5950 6050 50  0001 L CNN
+F 4 "IC LED DRVR LINEAR 45MA 40QFN" H 5950 5950 50  0001 L CNN "Description"
+F 5 "0.8" H 5950 5850 50  0001 L CNN "Height"
+F 6 "Lumissil" H 5950 5750 50  0001 L CNN "Manufacturer_Name"
+F 7 "IS31FL3737-QFLS4-TR" H 5950 5650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "870-31FL3737QFLS4TR" H 5950 5550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Lumissil/IS31FL3737-QFLS4-TR/?qs=o7k0yqUNuKAJ%252B%252BDONCPK0Q%3D%3D" H 5950 5450 50  0001 L CNN "Mouser Price/Stock"
+	1    4500 5650
 	-1   0    0    1   
 $EndComp
+Text Label 4500 5450 0    50   ~ 0
+Blue1
+Text Label 4500 5250 0    50   ~ 0
+Red2
+Text Label 4500 5150 0    50   ~ 0
+Blue2
+Text Label 4500 5050 0    50   ~ 0
+Blue2
+Text Label 4500 4950 0    50   ~ 0
+Red3
+Text Label 4500 4850 0    50   ~ 0
+Green3
+Text Label 4500 4750 0    50   ~ 0
+Blue3
+Text Label 4100 4050 1    50   ~ 0
+Red4
+Text Label 4000 4050 1    50   ~ 0
+Green4
+Text Label 3900 4050 1    50   ~ 0
+Blue4
+Text Label 3800 4050 1    50   ~ 0
+Row1A
+Text Label 3700 4050 1    50   ~ 0
+Row1B
 Wire Wire Line
-	2450 5750 1550 5750
-Connection ~ 2450 5750
+	2200 3150 2200 3750
+Text Label 2200 3750 2    50   ~ 0
+Row2A
+Text Label 6800 3050 2    50   ~ 0
+Row2B
+Connection ~ 6100 2500
+Connection ~ 6800 2500
+Wire Wire Line
+	6800 2500 6800 3050
 $Comp
-L ICEDLeft:SK6812MINI-E LED37
-U 1 1 6074B7D3
-P 2450 5300
-F 0 "LED37" H 2400 5000 50  0000 R CNN
-F 1 "SK6812MINI-E" H 1956 5345 50  0001 R CNN
-F 2 "SK6812MINIE" H 3400 5400 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 3400 5300 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 3400 5200 50  0001 L CNN "Description"
-F 5 "1.88" H 3400 5100 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 3400 5000 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 3400 4900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2450 5300
-	-1   0    0    1   
+L Device:LED_RGBA LED18
+U 1 1 6058A59D
+P 2700 2550
+F 0 "LED18" H 2950 2850 50  0000 C CNN
+F 1 "LED_RGBA" H 2700 2956 50  0001 C CNN
+F 2 "" H 2700 2500 50  0001 C CNN
+F 3 "~" H 2700 2500 50  0001 C CNN
+	1    2700 2550
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 5750 2450 5750
-Connection ~ 3350 5750
+	2900 2550 2900 3200
+Connection ~ 2900 2550
+Connection ~ 2900 3200
+Wire Wire Line
+	2900 3200 2900 3700
+Text Label 7550 3000 2    50   ~ 0
+Row3B
+Connection ~ 2200 3150
+Text Label 2900 3700 2    50   ~ 0
+Row3A
+Wire Wire Line
+	8350 1850 8350 3050
+Text Label 8350 3050 2    50   ~ 0
+Row4B
+Text Label 9050 3050 2    50   ~ 0
+Row4C
+Connection ~ 9050 2500
+Wire Wire Line
+	9050 2500 9050 3050
+Wire Wire Line
+	7550 1800 7550 3000
 $Comp
-L ICEDLeft:SK6812MINI-E LED36
-U 1 1 6074B34E
-P 3350 5300
-F 0 "LED36" H 3300 5000 50  0000 R CNN
-F 1 "SK6812MINI-E" H 2856 5345 50  0001 R CNN
-F 2 "SK6812MINIE" H 4300 5400 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 4300 5300 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 4300 5200 50  0001 L CNN "Description"
-F 5 "1.88" H 4300 5100 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 4300 5000 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 4300 4900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3350 5300
-	-1   0    0    1   
+L Device:LED_RGBA LED16
+U 1 1 60671172
+P 7350 2450
+F 0 "LED16" H 7600 2750 50  0000 C CNN
+F 1 "LED_RGBA" H 7350 2856 50  0001 C CNN
+F 2 "" H 7350 2400 50  0001 C CNN
+F 3 "~" H 7350 2400 50  0001 C CNN
+	1    7350 2450
+	1    0    0    -1  
+$EndComp
+Text Label 3600 4050 1    50   ~ 0
+Row2A
+Text Label 3500 4050 1    50   ~ 0
+Row2B
+Text Label 3300 4050 1    50   ~ 0
+Row3A
+Text Label 2900 4750 2    50   ~ 0
+Row4A
+Text Label 2900 4850 2    50   ~ 0
+Row4B
+Text Label 2900 4950 2    50   ~ 0
+Row4C
+Text Label 2900 5050 2    50   ~ 0
+Row5A
+Text Label 2900 5150 2    50   ~ 0
+Row5B
+Wire Wire Line
+	9050 2450 9050 2500
+Wire Wire Line
+	9050 1850 9050 2500
+Connection ~ 5250 3150
+Wire Wire Line
+	5250 3150 5250 3700
+Text Label 5250 3700 2    50   ~ 0
+Row5B
+$Comp
+L Device:LED_RGBA LED34
+U 1 1 6058662D
+P 5050 1200
+F 0 "LED34" H 5300 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 5050 1606 50  0001 C CNN
+F 2 "" H 5050 1150 50  0001 C CNN
+F 3 "~" H 5050 1150 50  0001 C CNN
+	1    5050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RGBA LED35
+U 1 1 60586637
+P 5050 1850
+F 0 "LED35" H 5300 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 5050 2256 50  0001 C CNN
+F 2 "" H 5050 1800 50  0001 C CNN
+F 3 "~" H 5050 1800 50  0001 C CNN
+	1    5050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RGBA LED32
+U 1 1 60586640
+P 5050 2500
+F 0 "LED32" H 5300 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 5050 2906 50  0001 C CNN
+F 2 "" H 5050 2450 50  0001 C CNN
+F 3 "~" H 5050 2450 50  0001 C CNN
+	1    5050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RGBA LED31
+U 1 1 60586648
+P 5050 3150
+F 0 "LED31" H 5300 3450 50  0000 C CNN
+F 1 "LED_RGBA" H 5050 3556 50  0001 C CNN
+F 2 "" H 5050 3100 50  0001 C CNN
+F 3 "~" H 5050 3100 50  0001 C CNN
+	1    5050 3150
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 5750 3350 5750
+	5250 1200 5250 1850
+Connection ~ 5250 1850
 Wire Wire Line
-	5150 5750 4250 5750
-Connection ~ 4250 5750
+	5250 1850 5250 2500
+Connection ~ 5250 2500
+Wire Wire Line
+	5250 2500 5250 3150
+Text Label 4850 3350 2    50   ~ 0
+Blue4
+Text Label 4850 3150 2    50   ~ 0
+Green4
+Text Label 4850 2950 2    50   ~ 0
+Red4
+Text Label 4850 2700 2    50   ~ 0
+Blue3
+Text Label 4850 2500 2    50   ~ 0
+Green3
+Text Label 4850 2300 2    50   ~ 0
+Red3
+Text Label 4850 2050 2    50   ~ 0
+Blue2
+Text Label 4850 1850 2    50   ~ 0
+Green2
+Text Label 4850 1650 2    50   ~ 0
+Red2
+Text Label 4850 1400 2    50   ~ 0
+Blue1
+Text Label 4850 1200 2    50   ~ 0
+Green1
+Text Label 4850 1000 2    50   ~ 0
+Red1
+Text Label 3700 3750 2    50   ~ 0
+Row4A
+Wire Wire Line
+	3700 3150 3700 3750
+Text Label 4400 3750 2    50   ~ 0
+Row5A
+Wire Wire Line
+	4400 3150 4400 3750
+Wire Wire Line
+	3700 2500 3700 3150
+Text Label 5700 2700 2    50   ~ 0
+Blue3
+Text Label 5700 2500 2    50   ~ 0
+Green3
+Text Label 5700 2050 2    50   ~ 0
+Blue2
+Text Label 5700 1850 2    50   ~ 0
+Green2
+Text Label 5700 1400 2    50   ~ 0
+Blue1
+Text Label 5700 1200 2    50   ~ 0
+Green1
+Wire Wire Line
+	4400 2500 4400 3150
+Connection ~ 4400 2500
+Wire Wire Line
+	4400 1850 4400 2500
+Connection ~ 4400 1850
+Wire Wire Line
+	4400 1200 4400 1850
+Text Label 4000 3350 2    50   ~ 0
+Blue4
+Text Label 4000 3150 2    50   ~ 0
+Green4
+Text Label 4000 2950 2    50   ~ 0
+Red4
 $Comp
-L ICEDLeft:SK6812MINI-E LED35
-U 1 1 60746FF8
-P 4250 5300
-F 0 "LED35" H 4200 5000 50  0000 R CNN
-F 1 "SK6812MINI-E" H 3756 5345 50  0001 R CNN
-F 2 "SK6812MINIE" H 5200 5400 50  0001 L CNN
-F 3 "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf" H 5200 5300 50  0001 L CNN
-F 4 "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)" H 5200 5200 50  0001 L CNN "Description"
-F 5 "1.88" H 5200 5100 50  0001 L CNN "Height"
-F 6 "Yellow Stone Corp." H 5200 5000 50  0001 L CNN "Manufacturer_Name"
-F 7 "SK6812MINI-E" H 5200 4900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4250 5300
-	-1   0    0    1   
+L Device:LED_RGBA LED34
+U 1 1 6063FBDA
+P 4200 3150
+F 0 "LED34" H 4450 3450 50  0000 C CNN
+F 1 "LED_RGBA" H 4200 3556 50  0001 C CNN
+F 2 "" H 4200 3100 50  0001 C CNN
+F 3 "~" H 4200 3100 50  0001 C CNN
+	1    4200 3150
+	1    0    0    -1  
 $EndComp
+Text Label 4000 2700 2    50   ~ 0
+Blue3
+Text Label 4000 2500 2    50   ~ 0
+Green3
+$Comp
+L Device:LED_RGBA LED36
+U 1 1 6063FBD2
+P 4200 2500
+F 0 "LED36" H 4450 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 4200 2906 50  0001 C CNN
+F 2 "" H 4200 2450 50  0001 C CNN
+F 3 "~" H 4200 2450 50  0001 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+Text Label 4000 2300 2    50   ~ 0
+Red3
+Text Label 4000 2050 2    50   ~ 0
+Blue2
+Text Label 4000 1850 2    50   ~ 0
+Green2
+$Comp
+L Device:LED_RGBA LED37
+U 1 1 6063FBC9
+P 4200 1850
+F 0 "LED37" H 4450 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 4200 2256 50  0001 C CNN
+F 2 "" H 4200 1800 50  0001 C CNN
+F 3 "~" H 4200 1800 50  0001 C CNN
+	1    4200 1850
+	1    0    0    -1  
+$EndComp
+Text Label 4000 1650 2    50   ~ 0
+Red2
+Text Label 4000 1400 2    50   ~ 0
+Blue1
+Text Label 4000 1200 2    50   ~ 0
+Green1
+Text Label 4000 1000 2    50   ~ 0
+Red1
+$Comp
+L Device:LED_RGBA LED38
+U 1 1 6063FBBF
+P 4200 1200
+F 0 "LED38" H 4450 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 4200 1606 50  0001 C CNN
+F 2 "" H 4200 1150 50  0001 C CNN
+F 3 "~" H 4200 1150 50  0001 C CNN
+	1    4200 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 2500
+Wire Wire Line
+	3700 1850 3700 2500
+Connection ~ 3700 1850
+Wire Wire Line
+	3700 1200 3700 1850
+Text Label 3300 3350 2    50   ~ 0
+Blue4
+Text Label 3300 3150 2    50   ~ 0
+Green4
+Text Label 3300 2950 2    50   ~ 0
+Red4
+$Comp
+L Device:LED_RGBA LED26
+U 1 1 6063BECC
+P 3500 3150
+F 0 "LED26" H 3750 3450 50  0000 C CNN
+F 1 "LED_RGBA" H 3500 3556 50  0001 C CNN
+F 2 "" H 3500 3100 50  0001 C CNN
+F 3 "~" H 3500 3100 50  0001 C CNN
+	1    3500 3150
+	1    0    0    -1  
+$EndComp
+Text Label 3300 2700 2    50   ~ 0
+Blue3
+Text Label 3300 2500 2    50   ~ 0
+Green3
+$Comp
+L Device:LED_RGBA LED27
+U 1 1 6063BEC4
+P 3500 2500
+F 0 "LED27" H 3750 2800 50  0000 C CNN
+F 1 "LED_RGBA" H 3500 2906 50  0001 C CNN
+F 2 "" H 3500 2450 50  0001 C CNN
+F 3 "~" H 3500 2450 50  0001 C CNN
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+Text Label 3300 2300 2    50   ~ 0
+Red3
+Text Label 3300 2050 2    50   ~ 0
+Blue2
+Text Label 3300 1850 2    50   ~ 0
+Green2
+$Comp
+L Device:LED_RGBA LED28
+U 1 1 6063BEBB
+P 3500 1850
+F 0 "LED28" H 3750 2150 50  0000 C CNN
+F 1 "LED_RGBA" H 3500 2256 50  0001 C CNN
+F 2 "" H 3500 1800 50  0001 C CNN
+F 3 "~" H 3500 1800 50  0001 C CNN
+	1    3500 1850
+	1    0    0    -1  
+$EndComp
+Text Label 3300 1650 2    50   ~ 0
+Red2
+Text Label 3300 1400 2    50   ~ 0
+Blue1
+Text Label 3300 1200 2    50   ~ 0
+Green1
+Text Label 3300 1000 2    50   ~ 0
+Red1
+$Comp
+L Device:LED_RGBA LED29
+U 1 1 6063BEB1
+P 3500 1200
+F 0 "LED29" H 3750 1500 50  0000 C CNN
+F 1 "LED_RGBA" H 3500 1606 50  0001 C CNN
+F 2 "" H 3500 1150 50  0001 C CNN
+F 3 "~" H 3500 1150 50  0001 C CNN
+	1    3500 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 3150
+Connection ~ 4400 3150
 $EndSCHEMATC
