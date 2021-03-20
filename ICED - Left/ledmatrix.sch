@@ -951,7 +951,7 @@ Blue1
 Text Label 4900 6300 0    50   ~ 0
 Red2
 Text Label 4900 6200 0    50   ~ 0
-Blue2
+Green2
 Text Label 4900 6100 0    50   ~ 0
 Blue2
 Text Label 4900 6000 0    50   ~ 0
