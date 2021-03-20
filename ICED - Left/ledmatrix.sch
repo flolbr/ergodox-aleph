@@ -13,43 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4600 7250 3    50   Input ~ 0
-GND
-Text HLabel 3600 7250 3    50   Input ~ 0
-VDD
-Text HLabel 3900 7250 3    50   Input ~ 0
-SDA
-Text HLabel 4000 7250 3    50   Input ~ 0
-SCL
-NoConn ~ 4200 7250
-Wire Wire Line
-	4500 7250 4600 7250
-$Comp
-L ICEDLeft:IS31FL3737-QFLS4-TR U3
-U 1 1 606D76FC
-P 4900 6550
-AR Path="/54B2C0DD/606D76FC" Ref="U3"  Part="1" 
-AR Path="/549878F0/6068E321/606D76FC" Ref="U?"  Part="1" 
-AR Path="/549878F0/60748308/606D76FC" Ref="U2"  Part="1" 
-AR Path="/549878F0/605673FE/606D76FC" Ref="U2"  Part="1" 
-F 0 "U2" H 5750 5600 50  0000 R CNN
-F 1 "IS31FL3737-QFLS4-TR" H 4856 6145 50  0001 R CNN
-F 2 "QFN40P500X500X80-41N-D" H 6350 7050 50  0001 L CNN
-F 3 "http://www.issi.com/WW/pdf/31FL3737.pdf" H 6350 6950 50  0001 L CNN
-F 4 "IC LED DRVR LINEAR 45MA 40QFN" H 6350 6850 50  0001 L CNN "Description"
-F 5 "0.8" H 6350 6750 50  0001 L CNN "Height"
-F 6 "Lumissil" H 6350 6650 50  0001 L CNN "Manufacturer_Name"
-F 7 "IS31FL3737-QFLS4-TR" H 6350 6550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "870-31FL3737QFLS4TR" H 6350 6450 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Lumissil/IS31FL3737-QFLS4-TR/?qs=o7k0yqUNuKAJ%252B%252BDONCPK0Q%3D%3D" H 6350 6350 50  0001 L CNN "Mouser Price/Stock"
-	1    4900 6550
-	-1   0    0    1   
-$EndComp
-Text GLabel 3300 6550 0    50   Input ~ 0
-RESET
-NoConn ~ 3300 6350
-NoConn ~ 3300 6250
-NoConn ~ 3800 7250
 Text Label 9050 1900 2    50   ~ 0
 Red1
 Text Label 8350 1900 2    50   ~ 0
@@ -242,13 +205,9 @@ Wire Wire Line
 Connection ~ 4800 4050
 Wire Wire Line
 	4800 4050 4800 4650
-Text Label 4800 4650 2    50   ~ 0
-Row5A
 Connection ~ 4100 4050
 Wire Wire Line
 	4100 4050 4100 4650
-Text Label 4100 4650 2    50   ~ 0
-Row4A
 Text Label 5250 1900 2    50   ~ 0
 Red1
 Text Label 5250 2100 2    50   ~ 0
@@ -339,29 +298,11 @@ F 3 "~" H 5450 2050 50  0001 C CNN
 	1    5450 2100
 	1    0    0    -1  
 $EndComp
-Text Label 5650 4600 2    50   ~ 0
-Row5B
 Wire Wire Line
 	5650 3400 5650 4050
 Wire Wire Line
 	5650 4050 5650 4600
 Connection ~ 5650 4050
-Text Label 3300 6050 2    50   ~ 0
-Row5B
-Text Label 3300 5950 2    50   ~ 0
-Row5A
-Text Label 3300 5850 2    50   ~ 0
-Row4C
-Text Label 3300 5750 2    50   ~ 0
-Row4B
-Text Label 3300 5650 2    50   ~ 0
-Row4A
-Text Label 3700 4950 1    50   ~ 0
-Row3A
-Text Label 3900 4950 1    50   ~ 0
-Row2B
-Text Label 4000 4950 1    50   ~ 0
-Row2A
 $Comp
 L Device:LED_RGBA LED70
 U 1 1 606D7652
@@ -379,14 +320,6 @@ F 3 "~" H 7750 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7950 2700 7950 3350
-Text Label 9450 3950 2    50   ~ 0
-Row4C
-Text Label 8750 3950 2    50   ~ 0
-Row4B
-Text Label 3300 4600 2    50   ~ 0
-Row3A
-Text Label 7950 3900 2    50   ~ 0
-Row3B
 $Comp
 L Device:LED_RGBA LED49
 U 1 1 606D763F
@@ -402,42 +335,6 @@ F 3 "~" H 3100 3400 50  0001 C CNN
 	1    3100 3450
 	1    0    0    -1  
 $EndComp
-Text Label 7200 3950 2    50   ~ 0
-Row2B
-Text Label 2600 4650 2    50   ~ 0
-Row2A
-Text Label 4100 4950 1    50   ~ 0
-Row1B
-Text Label 4200 4950 1    50   ~ 0
-Row1A
-Text Label 4300 4950 1    50   ~ 0
-Blue4
-Text Label 4400 4950 1    50   ~ 0
-Green4
-Text Label 4500 4950 1    50   ~ 0
-Red4
-Text Label 4900 5650 0    50   ~ 0
-Blue3
-Text Label 4900 5750 0    50   ~ 0
-Green3
-Text Label 4900 5850 0    50   ~ 0
-Red3
-Text Label 4900 5950 0    50   ~ 0
-Blue2
-Text Label 4900 6050 0    50   ~ 0
-Blue2
-Text Label 4900 6150 0    50   ~ 0
-Red2
-Text Label 4900 6350 0    50   ~ 0
-Blue1
-Text Label 4900 6450 0    50   ~ 0
-Green1
-Text Label 4900 6550 0    50   ~ 0
-Red1
-Text Label 6500 4000 2    50   ~ 0
-Row1B
-Text Label 1850 4650 2    50   ~ 0
-Row1A
 Text Label 9050 3600 2    50   ~ 0
 Blue3
 Text Label 9050 3400 2    50   ~ 0
@@ -1017,4 +914,125 @@ $EndComp
 Connection ~ 7950 3350
 Wire Wire Line
 	7950 3350 7950 3900
+Text Label 9450 3950 2    50   ~ 0
+Row4C
+Text Label 8750 3950 2    50   ~ 0
+Row4B
+Text Label 7950 3900 2    50   ~ 0
+Row3B
+Text Label 7200 3950 2    50   ~ 0
+Row2B
+Text Label 6500 4000 2    50   ~ 0
+Row1B
+Text Label 5650 4600 2    50   ~ 0
+Row5B
+Text Label 4800 4650 2    50   ~ 0
+Row5A
+Text Label 4100 4650 2    50   ~ 0
+Row4A
+Text Label 3300 4600 2    50   ~ 0
+Row3A
+Text Label 2600 4650 2    50   ~ 0
+Row2A
+Text Label 1850 4650 2    50   ~ 0
+Row1A
+Text HLabel 4100 7400 3    50   BiDi ~ 0
+GND
+Text HLabel 3800 5100 1    50   BiDi ~ 0
+PVCC_1
+Text HLabel 4900 6400 2    50   BiDi ~ 0
+GND
+Text Label 4900 6700 0    50   ~ 0
+Red1
+Text Label 4900 6600 0    50   ~ 0
+Green1
+Text Label 4900 6500 0    50   ~ 0
+Blue1
+Text Label 4900 6300 0    50   ~ 0
+Red2
+Text Label 4900 6200 0    50   ~ 0
+Blue2
+Text Label 4900 6100 0    50   ~ 0
+Blue2
+Text Label 4900 6000 0    50   ~ 0
+Red3
+Text Label 4900 5900 0    50   ~ 0
+Green3
+Text Label 4900 5800 0    50   ~ 0
+Blue3
+Text Label 4500 5100 1    50   ~ 0
+Red4
+Text Label 4400 5100 1    50   ~ 0
+Green4
+Text Label 4300 5100 1    50   ~ 0
+Blue4
+Text Label 4200 5100 1    50   ~ 0
+Row1A
+Text Label 4100 5100 1    50   ~ 0
+Row1B
+Text Label 4000 5100 1    50   ~ 0
+Row2A
+Text Label 3900 5100 1    50   ~ 0
+Row2B
+Text Label 3700 5100 1    50   ~ 0
+Row3A
+Text Label 3300 5800 2    50   ~ 0
+Row4A
+Text Label 3300 5900 2    50   ~ 0
+Row4B
+Text Label 3300 6000 2    50   ~ 0
+Row4C
+Text Label 3300 6100 2    50   ~ 0
+Row5A
+Text Label 3300 6200 2    50   ~ 0
+Row5B
+NoConn ~ 3800 7400
+NoConn ~ 3300 6400
+NoConn ~ 3300 6500
+$Comp
+L ICEDLeft:IS31FL3737-QFLS4-TR U3
+U 1 1 606D76FC
+P 4900 6700
+AR Path="/54B2C0DD/606D76FC" Ref="U3"  Part="1" 
+AR Path="/549878F0/6068E321/606D76FC" Ref="U?"  Part="1" 
+AR Path="/549878F0/60748308/606D76FC" Ref="U2"  Part="1" 
+AR Path="/549878F0/605673FE/606D76FC" Ref="U2"  Part="1" 
+F 0 "U2" H 5750 5750 50  0000 R CNN
+F 1 "IS31FL3737-QFLS4-TR" H 4856 6295 50  0001 R CNN
+F 2 "QFN40P500X500X80-41N-D" H 6350 7200 50  0001 L CNN
+F 3 "http://www.issi.com/WW/pdf/31FL3737.pdf" H 6350 7100 50  0001 L CNN
+F 4 "IC LED DRVR LINEAR 45MA 40QFN" H 6350 7000 50  0001 L CNN "Description"
+F 5 "0.8" H 6350 6900 50  0001 L CNN "Height"
+F 6 "Lumissil" H 6350 6800 50  0001 L CNN "Manufacturer_Name"
+F 7 "IS31FL3737-QFLS4-TR" H 6350 6700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "870-31FL3737QFLS4TR" H 6350 6600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Lumissil/IS31FL3737-QFLS4-TR/?qs=o7k0yqUNuKAJ%252B%252BDONCPK0Q%3D%3D" H 6350 6500 50  0001 L CNN "Mouser Price/Stock"
+	1    4900 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 7400 4600 7400
+NoConn ~ 4200 7400
+Text HLabel 4600 7400 3    50   BiDi ~ 0
+GND
+Text HLabel 4000 7400 3    50   BiDi ~ 0
+SCL
+Text HLabel 3300 6300 0    50   BiDi ~ 0
+PVCC_2
+Text HLabel 4600 5100 1    50   BiDi ~ 0
+PGND
+Text HLabel 3600 7400 3    50   BiDi ~ 0
+VCC
+Text HLabel 3700 7400 3    50   BiDi ~ 0
+VIO
+Text HLabel 3900 7400 3    50   BiDi ~ 0
+SDA
+Text HLabel 4300 7400 3    50   BiDi ~ 0
+SDB
+Text HLabel 4400 7400 3    50   BiDi ~ 0
+IICRST
+Text HLabel 3300 6700 0    50   BiDi ~ 0
+RSET
+Text HLabel 3300 6600 0    50   BiDi ~ 0
+GND
 $EndSCHEMATC
