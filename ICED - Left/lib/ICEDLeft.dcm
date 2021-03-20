@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP GSB4111312HR
+D USB Connectors USB3.1 A STD R/A DIP 30ug
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/gsb41113xxhr.pdf
+$ENDCMP
+#
 $CMP IS31FL3737-QFLS4-TR
 D IC LED DRVR LINEAR 45MA 40QFN
 F http://www.issi.com/WW/pdf/31FL3737.pdf

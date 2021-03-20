@@ -189,10 +189,6 @@ F 3 "" H 3900 2550 60  0001 C CNN
 	1    3900 2550
 	0    -1   -1   0   
 $EndComp
-Text Label 3650 2650 2    39   ~ 0
-USB_DM
-Text Label 3650 2550 2    39   ~ 0
-USB_DP
 Text Label 5500 5750 3    39   ~ 0
 SWD_CLK
 Text Label 5800 5750 3    39   ~ 0
@@ -234,8 +230,6 @@ F 3 "" H 2050 1500 60  0000 C CNN
 	1    2050 1500
 	-1   0    0    1   
 $EndComp
-Text HLabel 1050 2100 3    60   BiDi ~ 0
-GND
 NoConn ~ 5400 4400
 NoConn ~ 5300 4400
 NoConn ~ 5200 4400
@@ -289,50 +283,6 @@ Text HLabel 6100 900  1    40   3State ~ 0
 PTC9
 Text Notes 8450 3150 0    40   ~ 0
 RESET internally\npulled high
-$Comp
-L ICEDLeft:+5V #PWR016
-U 1 1 5498DA99
-P 2000 3050
-F 0 "#PWR016" H 2000 3140 20  0001 C CNN
-F 1 "+5V" H 2000 3140 30  0000 C CNN
-F 2 "" H 2000 3050 60  0000 C CNN
-F 3 "" H 2000 3050 60  0000 C CNN
-	1    2000 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ICEDLeft:VSS #PWR017
-U 1 1 5498DAA9
-P 2600 3550
-F 0 "#PWR017" H 2600 3550 30  0001 C CNN
-F 1 "VSS" H 2600 3480 30  0000 C CNN
-F 2 "" H 2600 3550 60  0000 C CNN
-F 3 "" H 2600 3550 60  0000 C CNN
-	1    2600 3550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1400 3950
-NoConn ~ 1400 3850
-NoConn ~ 1400 3350
-NoConn ~ 1400 3250
-Text HLabel 1100 4250 3    60   BiDi ~ 0
-GND
-Text Label 1400 3550 0    39   ~ 0
-TX0
-Text Label 1400 3650 0    39   ~ 0
-RX0
-$Comp
-L ICEDLeft:USB3 P4
-U 1 1 5498D96F
-P 1100 3550
-F 0 "P4" H 1100 3100 59  0000 C CNN
-F 1 "USB3_AFEMALE" V 1100 3550 59  0000 C CNN
-F 2 "prettylib:USB3_AFEMALE_MOD" H 1100 3550 60  0001 C CNN
-F 3 "" H 1100 3550 60  0000 C CNN
-F 4 "Single-row" H 1020 3070 5   0001 L BNN "Field4"
-	1    1100 3550
-	-1   0    0    -1  
-$EndComp
 $Comp
 L ICEDLeft:VSS #PWR018
 U 1 1 549A599B
@@ -607,7 +557,6 @@ F 3 "" H 3250 7650 60  0001 C CNN
 	1    3250 7650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1400 3750
 $Comp
 L ICEDLeft:TC1264 Q1
 U 1 1 55226CE5
@@ -730,14 +679,6 @@ Wire Wire Line
 	7100 4750 7100 4850
 Wire Wire Line
 	7000 4750 7000 4850
-Wire Wire Line
-	2600 3450 2600 3550
-Wire Wire Line
-	1400 3450 2600 3450
-Wire Wire Line
-	2000 3150 1400 3150
-Wire Wire Line
-	2000 3050 2000 3150
 Wire Wire Line
 	6600 4600 6750 4600
 Wire Wire Line
@@ -1100,17 +1041,6 @@ Wire Wire Line
 	4150 2850 4150 2750
 Connection ~ 4150 2750
 $Comp
-L ICEDLeft:USBC P2
-U 1 1 56F2AB2D
-P 1050 1350
-F 0 "P2" H 1050 2131 60  0000 C CNN
-F 1 "USBC" H 1050 2025 60  0000 C CNN
-F 2 "prettylib:USB_C_MIDMOUNT_TH_IMPCUT" H 1200 1725 60  0001 C CNN
-F 3 "" H 1200 1725 60  0000 C CNN
-	1    1050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L ICEDLeft:VDD #PWR034
 U 1 1 5583794F
 P 3600 2750
@@ -1125,104 +1055,6 @@ Wire Wire Line
 	1900 1400 2050 1400
 Wire Wire Line
 	1900 1000 2050 1000
-Text Label 1300 1900 0    39   ~ 0
-VSS
-Text Label 800  1900 2    39   ~ 0
-VSS
-Text Label 1300 800  0    39   ~ 0
-VSS
-Text Label 800  800  2    39   ~ 0
-VSS
-Text Label 1300 1400 0    39   ~ 0
-USB_DM
-Text Label 800  1300 2    39   ~ 0
-USB_DM
-Text Label 1300 1300 0    39   ~ 0
-USB_DP
-Text Label 800  1400 2    39   ~ 0
-USB_DP
-Text Label 1300 1600 0    39   ~ 0
-+5V
-Text Label 800  1600 2    39   ~ 0
-+5V
-Text Label 1300 1100 0    39   ~ 0
-+5V
-Text Label 800  1100 2    39   ~ 0
-+5V
-Text Label 1300 1000 0    39   ~ 0
-RX1
-Text Label 1300 900  0    39   ~ 0
-TX1
-Wire Wire Line
-	1550 1200 1550 1300
-$Comp
-L ICEDLeft:R R15
-U 1 1 56F4E036
-P 1550 1550
-F 0 "R15" V 1650 1550 50  0000 C CNN
-F 1 "5.1k" V 1550 1550 50  0000 C CNN
-F 2 "prettylib:SMD-1005" V 1650 1550 50  0001 C CNN
-F 3 "" H 1550 1550 60  0001 C CNN
-	1    1550 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	800  1500 600  1500
-Wire Wire Line
-	600  1500 600  1600
-$Comp
-L ICEDLeft:R R14
-U 1 1 56F4E375
-P 600 1850
-F 0 "R14" V 500 1850 50  0000 C CNN
-F 1 "5.1k" V 600 1850 50  0000 C CNN
-F 2 "prettylib:SMD-1005" V 700 1850 50  0001 C CNN
-F 3 "" H 600 1850 60  0001 C CNN
-	1    600  1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	600  2100 600  2200
-$Comp
-L ICEDLeft:VSS #PWR035
-U 1 1 56F4E6CF
-P 600 2200
-F 0 "#PWR035" H 600 2200 30  0001 C CNN
-F 1 "VSS" H 600 2130 30  0000 C CNN
-F 2 "" H 600 2200 60  0000 C CNN
-F 3 "" H 600 2200 60  0000 C CNN
-	1    600  2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1200 1550 1200
-$Comp
-L ICEDLeft:VSS #PWR036
-U 1 1 56F4E922
-P 1550 1900
-F 0 "#PWR036" H 1550 1900 30  0001 C CNN
-F 1 "VSS" H 1550 1830 30  0000 C CNN
-F 2 "" H 1550 1900 60  0000 C CNN
-F 3 "" H 1550 1900 60  0000 C CNN
-	1    1550 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 1900 1550 1800
-NoConn ~ 1300 1500
-NoConn ~ 800  1200
-Text Label 800  900  2    39   ~ 0
-TX1
-Text Label 800  1000 2    39   ~ 0
-RX1
-Text Label 1300 1800 0    39   ~ 0
-TX1
-Text Label 800  1800 2    39   ~ 0
-TX1
-Text Label 1300 1700 0    39   ~ 0
-RX1
-Text Label 800  1700 2    39   ~ 0
-RX1
 Wire Wire Line
 	2050 1400 2200 1400
 Wire Wire Line
@@ -1258,21 +1090,21 @@ Wire Wire Line
 Connection ~ 3250 7600
 Wire Wire Line
 	3250 7600 3250 7650
-Text Label 2000 4800 0    50   ~ 0
+Text Label 4150 6650 0    50   ~ 0
 VSS
-Text Label 2000 4600 0    50   ~ 0
+Text Label 4150 6450 0    50   ~ 0
 VDD
 $Comp
 L Connector:Conn_01x03_Female J?
 U 1 1 60CA20CD
-P 1800 4700
+P 3950 6550
 AR Path="/60CA20CD" Ref="J?"  Part="1" 
 AR Path="/549878F0/60CA20CD" Ref="P5"  Part="1" 
-F 0 "P5" H 1692 4375 50  0000 C CNN
-F 1 "RGB Out" H 1692 4466 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1800 4650 50  0001 C CNN
-F 3 "~" H 1800 4700 50  0001 C CNN
-	1    1800 4700
+F 0 "P5" H 3842 6225 50  0000 C CNN
+F 1 "RGB Out" H 3842 6316 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 3950 6500 50  0001 C CNN
+F 3 "~" H 3950 6550 50  0001 C CNN
+	1    3950 6550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1304,7 +1136,7 @@ Wire Wire Line
 Connection ~ 9550 1850
 Text HLabel 6000 4900 3    40   Output ~ 0
 RGBIN
-Text HLabel 2000 4700 2    50   Input ~ 0
+Text HLabel 4150 6550 2    50   Input ~ 0
 RGBOUT
 Text HLabel 10600 3400 0    39   Input ~ 0
 RGBIN
@@ -1659,4 +1491,173 @@ Wire Wire Line
 Connection ~ 11950 4450
 Wire Wire Line
 	11900 6000 11850 6000
+Text Label 3650 2650 2    39   ~ 0
+D-
+Text Label 3650 2550 2    39   ~ 0
+D+
+Wire Wire Line
+	650  2500 650  2550
+Wire Wire Line
+	850  2500 650  2500
+Text Label 850  2400 2    39   ~ 0
+RX0
+Text Label 850  2300 2    39   ~ 0
+TX0
+Text HLabel 850  2800 3    60   BiDi ~ 0
+GND
+$Comp
+L ICEDLeft:VSS #PWR017
+U 1 1 5498DAA9
+P 650 2550
+F 0 "#PWR017" H 650 2550 30  0001 C CNN
+F 1 "VSS" H 650 2480 30  0000 C CNN
+F 2 "" H 650 2550 60  0000 C CNN
+F 3 "" H 650 2550 60  0000 C CNN
+	1    650  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICEDLeft:+5V #PWR016
+U 1 1 5498DA99
+P 850 1900
+F 0 "#PWR016" H 850 1990 20  0001 C CNN
+F 1 "+5V" H 850 1990 30  0000 C CNN
+F 2 "" H 850 1900 60  0000 C CNN
+F 3 "" H 850 1900 60  0000 C CNN
+	1    850  1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICEDLeft:692121130100 P4
+U 1 1 60D82FC9
+P 1450 2300
+F 0 "P4" H 1867 2339 50  0000 L CNN
+F 1 "692121130100" H 1867 2248 50  0000 L CNN
+F 2 "692121130100" H 1450 2300 50  0001 L BNN
+F 3 "" H 1450 2300 50  0001 L BNN
+F 4 "Reverse Horizontal" H 1450 2300 50  0001 L BNN "TYPE"
+F 5 "Type A" H 1450 2300 50  0001 L BNN "INTERFACE-TYPE"
+F 6 "9" H 1450 2300 50  0001 L BNN "PINS"
+F 7 "692121130100" H 1450 2300 50  0001 L BNN "VALUE"
+F 8 "692121130100" H 1450 2300 50  0001 L BNN "PART-NUMBER"
+F 9 "https://www.we-online.com/catalog/datasheet/692121130100.pdf" H 1450 2300 50  0001 L BNN "DATASHEET-URL"
+F 10 "Receptacle" H 1450 2300 50  0001 L BNN "GERDER"
+F 11 "Tape and Reel" H 1450 2300 50  0001 L BNN "PACKAGING"
+F 12 "USB 3.0" H 1450 2300 50  0001 L BNN "APPLICATION"
+F 13 "1.8A" H 1450 2300 50  0001 L BNN "IR1"
+F 14 "30V(AC)" H 1450 2300 50  0001 L BNN "WORKING-VOLTAGE"
+F 15 "THR" H 1450 2300 50  0001 L BNN "MOUNT"
+	1    1450 2300
+	1    0    0    -1  
+$EndComp
+Text Label 2800 3200 0    39   ~ 0
++5V
+$Comp
+L ICEDLeft:R R14
+U 1 1 60F12085
+P 1400 4550
+F 0 "R14" V 1500 4550 50  0000 C CNN
+F 1 "5.1k" V 1400 4550 50  0000 C CNN
+F 2 "prettylib:SMD-1005" V 1500 4550 50  0001 C CNN
+F 3 "" H 1400 4550 60  0001 C CNN
+	1    1400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICEDLeft:R R15
+U 1 1 60F1208B
+P 3250 4550
+F 0 "R15" V 3150 4550 50  0000 C CNN
+F 1 "5.1k" V 3250 4550 50  0000 C CNN
+F 2 "prettylib:SMD-1005" V 3350 4550 50  0001 C CNN
+F 3 "" H 3250 4550 60  0001 C CNN
+	1    3250 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4800 3250 4900
+$Comp
+L ICEDLeft:VSS #PWR011
+U 1 1 60F12092
+P 3250 4900
+F 0 "#PWR011" H 3250 4900 30  0001 C CNN
+F 1 "VSS" H 3250 4830 30  0000 C CNN
+F 2 "" H 3250 4900 60  0000 C CNN
+F 3 "" H 3250 4900 60  0000 C CNN
+	1    3250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICEDLeft:VSS #PWR09
+U 1 1 60F12098
+P 1400 4900
+F 0 "#PWR09" H 1400 4900 30  0001 C CNN
+F 1 "VSS" H 1400 4830 30  0000 C CNN
+F 2 "" H 1400 4900 60  0000 C CNN
+F 3 "" H 1400 4900 60  0000 C CNN
+	1    1400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4900 1400 4800
+Text Label 2800 3700 0    39   ~ 0
+TX1
+Text Label 2800 3800 0    39   ~ 0
+RX1
+Text Label 1400 3500 2    50   ~ 0
+D-
+Text Label 1400 3400 2    50   ~ 0
+D+
+Wire Wire Line
+	2800 4300 3250 4300
+Text HLabel 2800 4600 3    60   BiDi ~ 0
+GND
+Text Label 2800 3900 0    39   ~ 0
+TX1
+Text Label 2800 4000 0    39   ~ 0
+RX1
+Text Label 1400 3900 2    39   ~ 0
+TX1
+Text Label 1400 3800 2    39   ~ 0
+RX1
+Text Label 1400 3700 2    39   ~ 0
+TX1
+Text Label 1400 4000 2    39   ~ 0
+RX1
+Text Label 2800 3400 0    50   ~ 0
+D+
+Text Label 2800 3500 0    50   ~ 0
+D-
+NoConn ~ 2800 4200
+NoConn ~ 1400 4200
+$Comp
+L ICEDLeft:VSS #PWR0112
+U 1 1 610174AB
+P 2900 4550
+F 0 "#PWR0112" H 2900 4550 30  0001 C CNN
+F 1 "VSS" H 2900 4480 30  0000 C CNN
+F 2 "" H 2900 4550 60  0000 C CNN
+F 3 "" H 2900 4550 60  0000 C CNN
+	1    2900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICEDLeft:DX07S024XJ1R1100 P2
+U 1 1 60F120A5
+P 2100 3900
+F 0 "P2" H 2100 4865 50  0000 C CNN
+F 1 "DX07S024XJ1R1100" H 2100 4774 50  0000 C CNN
+F 2 "JAE_DX07S024XJ1R1100" H 2100 3900 50  0001 L BNN
+F 3 "" H 2100 3900 50  0001 L BNN
+F 4 "JAE" H 2100 3900 50  0001 L BNN "MANUFACTURER"
+F 5 "1" H 2100 3900 50  0001 L BNN "PARTREV"
+F 6 "3.34mm" H 2100 3900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "Manufacturer recommendations" H 2100 3900 50  0001 L BNN "STANDARD"
+	1    2100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4500 2900 4500
+Wire Wire Line
+	2900 4500 2900 4550
 $EndSCHEMATC
