@@ -518,10 +518,6 @@ Text Label 4350 1450 1    39   ~ 0
 TX1
 Text Label 4250 1450 1    39   ~ 0
 RX1
-Text Label 5600 900  1    39   ~ 0
-RX2
-Text Label 5500 900  1    39   ~ 0
-TX2
 Text HLabel 5800 900  1    40   3State ~ 0
 PTD0
 Text HLabel 5700 900  1    40   3State ~ 0
@@ -1491,8 +1487,6 @@ Wire Wire Line
 Connection ~ 11950 4450
 Wire Wire Line
 	11900 6000 11850 6000
-Text Label 3650 2650 2    39   ~ 0
-D-
 Text Label 3650 2550 2    39   ~ 0
 D+
 Wire Wire Line
@@ -1660,4 +1654,10 @@ Wire Wire Line
 	2800 4500 2900 4500
 Wire Wire Line
 	2900 4500 2900 4550
+Text Label 5500 900  1    39   ~ 0
+TX2
+Text Label 5600 900  1    39   ~ 0
+RX2
+Text Label 3650 2650 2    39   ~ 0
+D-
 $EndSCHEMATC
