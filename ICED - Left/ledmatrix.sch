@@ -976,18 +976,17 @@ Text Label 3900 5100 1    50   ~ 0
 Row2B
 Text Label 3700 5100 1    50   ~ 0
 Row3A
-Text Label 3300 5800 2    50   ~ 0
-Row4A
 Text Label 3300 5900 2    50   ~ 0
-Row4B
+Row4A
 Text Label 3300 6000 2    50   ~ 0
-Row4C
+Row4B
 Text Label 3300 6100 2    50   ~ 0
-Row5A
+Row4C
 Text Label 3300 6200 2    50   ~ 0
+Row5A
+Text Label 3300 6400 2    50   ~ 0
 Row5B
 NoConn ~ 3800 7400
-NoConn ~ 3300 6400
 NoConn ~ 3300 6500
 $Comp
 L ICEDLeft:IS31FL3737-QFLS4-TR U3
@@ -1035,4 +1034,6 @@ Text HLabel 3300 6700 0    50   BiDi ~ 0
 RSET
 Text HLabel 3300 6600 0    50   BiDi ~ 0
 GND
+Text Label 3300 5800 2    50   ~ 0
+Row3B
 $EndSCHEMATC
