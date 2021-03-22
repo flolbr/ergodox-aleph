@@ -1130,12 +1130,8 @@ $EndComp
 Wire Wire Line
 	9550 1950 9550 1850
 Connection ~ 9550 1850
-Text HLabel 6000 4900 3    40   Output ~ 0
-RGBIN
 Text HLabel 4150 6550 2    50   Input ~ 0
 RGBOUT
-Text HLabel 10600 3400 0    39   Input ~ 0
-RGBIN
 Text HLabel 7850 2950 2    39   BiDi ~ 0
 PTB17
 Text HLabel 6000 900  1    40   3State ~ 0
@@ -1664,4 +1660,5 @@ Wire Wire Line
 	11850 5450 11950 5450
 Wire Wire Line
 	11950 5450 11950 5500
+NoConn ~ 6000 4900
 $EndSCHEMATC
