@@ -130,8 +130,6 @@ $EndComp
 NoConn ~ 9000 3350
 Text HLabel 7850 2650 2    40   3State ~ 0
 PTC0
-Text HLabel 3850 2950 0    40   3State ~ 0
-ADC0_DP0
 Text HLabel 3850 3050 0    40   3State ~ 0
 ADC0_DM0
 $Comp
@@ -807,8 +805,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 1400 5100 900 
 Wire Wire Line
-	6000 4900 6000 4400
-Wire Wire Line
 	5700 4400 5700 4900
 Wire Wire Line
 	5900 4400 5900 5250
@@ -1063,17 +1059,6 @@ Wire Wire Line
 	4150 2750 4350 2750
 Wire Wire Line
 	3250 6800 3250 7000
-$Comp
-L ICEDLeft:MK20DX256VLH7 U1
-U 1 1 54037CD8
-P 5850 2900
-F 0 "U1" H 5850 3150 97  0000 C CNN
-F 1 "MK20DX256VLH7" H 5850 3000 97  0000 C CNN
-F 2 "prettylib:LQFP64" H 5850 2900 60  0001 C CNN
-F 3 "https://analytics.supplyframe.com/trackingservlet/track/?r=0x34EY99PS_gIu2qWuzU9_U842M9-un2szqNoXX0OQ-jjEPUPwXgi3IfsrqQGViu987XjBus-9gcyf8XpbnwaHi1tT6iClR7Jil-WnFlbWE5MVIxpZTCyF5yFDTS75_zmi1eCmAEEx-R8Nrn5CFvTOSRoUR87UZQxYgt9p3Ql3TdIPnzZsalJTx0GZMqxhLr-ez6DTlDnohU38WeFjmtavPYIafev-nWIAzLix5WU6p4HfGs_24G4flnirBLo8fgbWzqkUwBkIpijwbGRFSUBLXet-0IDga9My_iMyXpcMhsOqJzAz0oePk68mqUf2SnlejncYR09C8Lc8N_EhJa2pd28IGPMUUDeAwDAwo8G0s" H 5850 2900 60  0001 C CNN
-	1    5850 2900
-	1    0    0    -1  
-$EndComp
 Connection ~ 3250 7000
 Wire Wire Line
 	3250 7000 3250 7200
@@ -1130,10 +1115,6 @@ $EndComp
 Wire Wire Line
 	9550 1950 9550 1850
 Connection ~ 9550 1850
-Text HLabel 4150 6550 2    50   Input ~ 0
-RGBOUT
-Text HLabel 7850 2950 2    39   BiDi ~ 0
-PTB17
 Text HLabel 6000 900  1    40   3State ~ 0
 PTC10
 Text HLabel 5900 900  1    40   3State ~ 0
@@ -1660,5 +1641,33 @@ Wire Wire Line
 	11850 5450 11950 5450
 Wire Wire Line
 	11950 5450 11950 5500
-NoConn ~ 6000 4900
+Text Label 4150 6550 0    50   ~ 0
+RGBOUT
+$Comp
+L ICEDLeft:MK20DX256VLH7 U1
+U 1 1 54037CD8
+P 5850 2900
+F 0 "U1" H 5850 3150 97  0000 C CNN
+F 1 "MK20DX256VLH7" H 5850 3000 97  0000 C CNN
+F 2 "prettylib:LQFP64" H 5850 2900 60  0001 C CNN
+F 3 "https://analytics.supplyframe.com/trackingservlet/track/?r=0x34EY99PS_gIu2qWuzU9_U842M9-un2szqNoXX0OQ-jjEPUPwXgi3IfsrqQGViu987XjBus-9gcyf8XpbnwaHi1tT6iClR7Jil-WnFlbWE5MVIxpZTCyF5yFDTS75_zmi1eCmAEEx-R8Nrn5CFvTOSRoUR87UZQxYgt9p3Ql3TdIPnzZsalJTx0GZMqxhLr-ez6DTlDnohU38WeFjmtavPYIafev-nWIAzLix5WU6p4HfGs_24G4flnirBLo8fgbWzqkUwBkIpijwbGRFSUBLXet-0IDga9My_iMyXpcMhsOqJzAz0oePk68mqUf2SnlejncYR09C8Lc8N_EhJa2pd28IGPMUUDeAwDAwo8G0s" H 5850 2900 60  0001 C CNN
+	1    5850 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 3850 2950 0    40   3State ~ 0
+ADC0_DP0
+Text Label 7850 2950 0    35   ~ 0
+RGBOUT
+NoConn ~ 850  2000
+NoConn ~ 850  2100
+NoConn ~ 850  2200
+NoConn ~ 850  2600
+NoConn ~ 850  2700
+NoConn ~ 3000 2550
+Wire Wire Line
+	6000 4900 6000 4400
+Text HLabel 6000 4900 3    35   BiDi ~ 0
+PTA4
+Text Label 10600 3400 2    39   ~ 0
+RGBOUT
 $EndSCHEMATC

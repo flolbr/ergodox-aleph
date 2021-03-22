@@ -5,9 +5,10 @@ Ergodox Aleph 1 is a modification of the [Ergodox Infinity][original].
 Major changes include:
 
 * Full Under-Key RGB
-* Output header for additional RGB on bottom
 * Through-hole diodes for easy soldering
 * Replaced the expensive J-Link Needle port with a cheap J-Link socket
+* Added stabiliser holes to 2U keys on thumb cluster
+* Replaced discontinued USB ports with new parts
 
 **I've only done the left board so far.**
 

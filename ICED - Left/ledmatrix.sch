@@ -972,7 +972,7 @@ SCL
 Text HLabel 3300 6300 0    50   BiDi ~ 0
 PVCC_2
 Text HLabel 4600 5100 1    50   BiDi ~ 0
-PGND
+GND
 Text HLabel 3600 7400 3    50   BiDi ~ 0
 VCC
 Text HLabel 3700 7400 3    50   BiDi ~ 0
