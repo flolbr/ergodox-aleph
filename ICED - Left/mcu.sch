@@ -1663,7 +1663,6 @@ NoConn ~ 850  2100
 NoConn ~ 850  2200
 NoConn ~ 850  2600
 NoConn ~ 850  2700
-NoConn ~ 3000 2550
 Wire Wire Line
 	6000 4900 6000 4400
 Text HLabel 6000 4900 3    35   BiDi ~ 0
