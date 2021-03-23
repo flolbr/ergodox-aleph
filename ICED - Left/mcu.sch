@@ -1191,16 +1191,7 @@ F 3 "" H 9650 5450 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9900 6150 9650 6150
-Wire Wire Line
-	9200 5950 9650 5950
 Connection ~ 9850 5950
-Wire Wire Line
-	9650 6050 9650 5950
-Connection ~ 9650 6050
-Wire Wire Line
-	9650 6050 9900 6050
-Wire Wire Line
-	9200 6050 9650 6050
 $Comp
 L ICEDLeft:VSS #PWR0105
 U 1 1 60A2757E
@@ -1669,7 +1660,13 @@ Text HLabel 6000 4900 3    35   BiDi ~ 0
 PTA4
 Text Label 10600 3400 2    39   ~ 0
 RGBOUT
-Connection ~ 9650 5950
 Wire Wire Line
-	9650 5950 9850 5950
+	9200 6050 9650 6050
+Wire Wire Line
+	9650 6050 9900 6050
+Connection ~ 9650 6050
+Wire Wire Line
+	9650 6050 9650 5950
+Wire Wire Line
+	9200 5950 9850 5950
 $EndSCHEMATC
