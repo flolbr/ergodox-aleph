@@ -10,6 +10,12 @@ D IC LED DRVR LINEAR 45MA 40QFN
 F http://www.issi.com/WW/pdf/31FL3737.pdf
 $ENDCMP
 #
+$CMP RGB_0606
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP SK6812MINI-E
 D 3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)
 F http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf
