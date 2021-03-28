@@ -1,4 +1,4 @@
-(module Stabilizer_MX_2u (layer F.Cu) (tedit 5DD5122D)
+(module Stabilizer_MX_2u (layer F.Cu) (tedit 605D58F8)
   (descr "MX-style stabilizer mount")
   (tags MX,cherry,gateron,kailh,pg1511,stabilizer,stab)
   (fp_text reference REF** (at 0 0) (layer F.Fab) hide
@@ -12,4 +12,9 @@
   (pad "" np_thru_hole circle (at 11.9 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -11.9 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11.9 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+  (model /home/ellie/.local/share/kicad/Stabilizer_Cherry_MX_2u.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

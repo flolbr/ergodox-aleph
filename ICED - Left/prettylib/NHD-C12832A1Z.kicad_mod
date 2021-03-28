@@ -1,4 +1,4 @@
-(module NHD-C12832A1Z (layer F.Cu) (tedit 5584E360)
+(module NHD-C12832A1Z (layer F.Cu) (tedit 605D5FF0)
   (descr "NHD-C12832A1Z LCD")
   (tags "HDR SIL")
   (fp_text reference REF** (at 0 -24.6) (layer F.SilkS)
@@ -46,9 +46,9 @@
   (pad 21 thru_hole rect (at 17.3 -1.95 90) (size 1.5 2.4) (drill oval 0.9 2) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 20.1 0 90) (size 0.85001 0.85001) (drill 0.85) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at -20.1 0 90) (size 0.85001 0.85001) (drill 0.85) (layers *.Cu *.Mask F.SilkS))
-  (model 3d/NHD-C12832A1Z.wrl
-    (at (xyz 0 -0.024 0.065))
-    (scale (xyz 0.393701 0.393701 0.393701))
+  (model /home/ellie/.local/share/kicad/NHD-C12832A1Z-FS_RGB_-FBW-3V.stp
+    (offset (xyz -12 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
