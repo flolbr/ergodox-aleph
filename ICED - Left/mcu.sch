@@ -1074,7 +1074,7 @@ Wire Wire Line
 Text Label 4150 6650 0    50   ~ 0
 VSS
 Text Label 4150 6450 0    50   ~ 0
-VDD
++5V
 $Comp
 L Connector:Conn_01x03_Female J?
 U 1 1 60CA20CD
