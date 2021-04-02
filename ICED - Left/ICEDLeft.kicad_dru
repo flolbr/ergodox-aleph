@@ -1,0 +1,23 @@
+(version 1)
+(rule "P2_exception"
+   (constraint hole_to_hole (min "0.01 mm"))
+(condition "A.insideCourtyard('P2')"))
+
+(rule "P1 exception"
+   (constraint hole_to_hole (min "0.18mm"))
+   (constraint clearance (min "0.18mm"))
+   (condition "A.insideCourtyard('P1') && A.Type == 'Pad'"))
+
+(rule "PTH to NPTH"
+  (constraint hole_clearance (min "0.15 mm"))
+  (constraint clearance (min "0.15 mm"))
+  (condition "A.Pad_Type == 'NPTH, Mechanical' && B.Pad_Type == 'SMD'")) 
+
+(rule "NPTH to NPTH"
+  (constraint hole_to_hole (min "0.4 mm"))
+  (condition "A.Pad_Type == 'NPTH, Mechanical' && B.Pad_Type == 'NPTH, Mechanical'"))
+
+(rule "Silkscreen Overlap"
+  (constraint silk_clearance (min "0 mm"))
+  (condition "A.Type == 'Silkscreen' && B.Type == 'Silkscreen'"))
+
