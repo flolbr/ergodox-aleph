@@ -17,6 +17,14 @@
   (constraint hole_to_hole (min "0.4 mm"))
   (condition "A.Pad_Type == 'NPTH, Mechanical' && B.Pad_Type == 'NPTH, Mechanical'"))
 
+(rule "NPTH to Via"
+  (constraint clearance (min "0.254 mm"))
+  (condition "A.Pad_Type == 'NPTH, Mechanical' && B.Type == 'Track'"))
+
+(rule "PTH to Via"
+  (constraint clearance (min "0.254 mm"))
+  (condition "A.Pad_Type == 'PTH' && B.Type == 'Track'"))
+
 (rule "Silkscreen Overlap"
   (constraint silk_clearance (min "0 mm"))
   (condition "A.Type == 'Silkscreen' && B.Type == 'Silkscreen'"))
