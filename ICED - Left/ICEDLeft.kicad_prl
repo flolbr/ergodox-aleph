@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
@@ -21,7 +21,7 @@
       "lockedItems": false,
       "otherItems": true,
       "pads": false,
-      "text": true,
+      "text": false,
       "tracks": true,
       "vias": true,
       "zones": false
@@ -37,6 +37,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -63,7 +64,7 @@
       37
     ],
     "visible_layers": "000ffff_80000001",
-    "zone_display_mode": 2
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ICEDLeft.kicad_prl",
