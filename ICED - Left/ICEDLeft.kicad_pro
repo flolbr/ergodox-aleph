@@ -422,7 +422,9 @@
         "microvia_drill": 0.127,
         "name": "Power",
         "nets": [
-          "+5V"
+          "+5V",
+          "VDD",
+          "VSS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
