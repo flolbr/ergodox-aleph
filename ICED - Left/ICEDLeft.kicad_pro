@@ -486,6 +486,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "a145286f-4cba-4b26-9bc1-71b5c71c32a1",
+      ""
+    ],
+    [
+      "00000000-0000-0000-0000-0000549878f0",
+      "mcu"
+    ],
+    [
+      "00000000-0000-0000-0000-0000605673fe",
+      "ledmatrix_2"
+    ]
+  ],
   "text_variables": {}
 }
