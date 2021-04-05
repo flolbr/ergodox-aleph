@@ -1,5 +1,7 @@
 # Ergodox Aleph 1
 
+Please note that this project uses the nightly version of KiCad (or Kicad 6).
+
 Ergodox [Aleph 1][aleph] is a modification of the [Ergodox Infinity][original].
 
 Major changes include:
