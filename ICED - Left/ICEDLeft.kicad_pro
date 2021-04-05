@@ -56,10 +56,8 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|102199773|59610835|01a8c8ca-a8af-46de-b2ec-f78afc883db7|5bd2bb16-6ddd-4341-b50b-2402ebe66b4c",
-        "copper_edge_clearance|102199773|59610835|a75186ab-bb9a-4b5a-8adf-916cb4a19d11|5bd2bb16-6ddd-4341-b50b-2402ebe66b4c",
-        "hole_clearance|103312273|58785835|5bd2bb16-6ddd-4341-b50b-2402ebe66b4c|b4ad1bea-bdf1-4897-a71b-14ce0a5e8a53",
-        "silk_over_copper|110437906|172504161|24579bc6-4295-4eb1-a8fe-c1d2e514a18c|c9c74768-df5f-484d-8f85-e4a09ecab9a8"
+        "hole_clearance|119001498|40845006|b4ad1bea-bdf1-4897-a71b-14ce0a5e8a53|5bd2bb16-6ddd-4341-b50b-2402ebe66b4c",
+        "silk_over_copper|126127130|154563331|24579bc6-4295-4eb1-a8fe-c1d2e514a18c|c9c74768-df5f-484d-8f85-e4a09ecab9a8"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -500,5 +498,7 @@
       "ledmatrix_2"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "revision": "REV-2"
+  }
 }
