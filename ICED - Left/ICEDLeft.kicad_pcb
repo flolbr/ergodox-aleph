@@ -3008,7 +3008,7 @@
       (net 71 "Net-(LCD1-Pad20)") (pinfunction "K(G)") (tstamp dee52302-ac80-4b7d-9e33-c51355a1048f))
     (pad "21" thru_hole rect (at 17.3 -1.95 90) (locked) (size 1.5 2.4) (drill oval 0.9 2) (layers *.Cu *.Mask "F.SilkS")
       (net 72 "Net-(LCD1-Pad21)") (pinfunction "K(B)") (tstamp 57bead06-bb17-46c8-8d6c-783dfb087e85))
-    (model "$ALT3DMOD/NHD-C12832A1Z-FS_RGB_-FBW-3V.stp"
+    (model "${ALT3DMOD}/NHD-C12832A1Z-FS_RGB_-FBW-3V.stp"
       (offset (xyz -12 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
