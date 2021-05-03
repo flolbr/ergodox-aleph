@@ -1,5 +1,5 @@
 (footprint "SW_Hotswap_Kailh" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 606D01C8)
+  (tedit 608F71CB)
   (descr "Kailh keyswitch Hotswap Socket, ")
   (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket")
   (attr smd)
@@ -49,12 +49,12 @@
   (pad "" np_thru_hole circle (at -5.08 0) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp e78d0af6-f31f-494f-a4d0-bd4a0e9a5ad7))
   (pad "1" smd rect (at -7.085 -2.54) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 0e403cde-21af-4948-90fb-aba93baf044d))
   (pad "2" smd rect (at 5.842 -5.08) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 4ee68ac1-14e8-46b0-9978-31814965cc38))
-  (model "/home/ellie/.local/share/kicad/SW_Hotswap_Kailh.wrl"
+  (model "${ALT3DMOD}/SW_Hotswap_Kailh.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KISYS3DMOD}/cherry mx.STEP"
+  (model "${ALT3DMOD}/cherry mx.STEP"
     (offset (xyz 0 0 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
