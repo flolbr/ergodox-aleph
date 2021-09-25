@@ -1328,7 +1328,7 @@
     (uuid 24531951-5b15-484c-81ff-2cb3594de0a0)
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 41.91 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 41.91 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d753c)
     (property "Reference" "LED7" (id 0) (at 48.26 45.72 0))
@@ -1347,7 +1347,7 @@
     (pin "4" (uuid 329e65ee-1e60-446e-9140-0f8a0ebc1787))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 41.91 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 41.91 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7546)
     (property "Reference" "LED6" (id 0) (at 48.26 62.23 0))
@@ -1366,7 +1366,7 @@
     (pin "4" (uuid d305e324-3ec5-4ff8-99c7-325b1ae0badb))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 41.91 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 41.91 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d754f)
     (property "Reference" "LED5" (id 0) (at 48.26 78.74 0))
@@ -1385,7 +1385,7 @@
     (pin "4" (uuid 08377b3a-1f53-478a-8c32-e514df6c9643))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 41.91 102.87 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 41.91 102.87 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7587)
     (property "Reference" "LED4" (id 0) (at 48.26 95.25 0))
@@ -1404,7 +1404,7 @@
     (pin "4" (uuid 6af7f894-63cb-412a-9e34-c0a180d06c83))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 60.96 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 60.96 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d755e)
     (property "Reference" "LED14" (id 0) (at 67.31 45.72 0))
@@ -1423,7 +1423,7 @@
     (pin "4" (uuid f50fb223-5be5-4084-94da-cf9a340ae390))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 60.96 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 60.96 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7568)
     (property "Reference" "LED13" (id 0) (at 67.31 62.23 0))
@@ -1442,7 +1442,7 @@
     (pin "4" (uuid 2af89a84-de00-4c8b-a977-b35d5e0fb4c8))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 60.96 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 60.96 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7571)
     (property "Reference" "LED12" (id 0) (at 67.31 78.74 0))
@@ -1461,7 +1461,7 @@
     (pin "4" (uuid e41e01f6-7e2b-4080-aed3-1d98cc0f68e2))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 60.96 102.87 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 60.96 102.87 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7579)
     (property "Reference" "LED11" (id 0) (at 67.31 95.25 0))
@@ -1480,7 +1480,7 @@
     (pin "4" (uuid 3618d9cb-6206-4bf0-8abb-ef551beaa800))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 78.74 54.61 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 78.74 54.61 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75a8)
     (property "Reference" "LED20" (id 0) (at 85.09 46.99 0))
@@ -1499,7 +1499,7 @@
     (pin "4" (uuid bc53fba9-e128-4c4a-95d2-eec04ef8a4a3))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 78.74 71.12 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 78.74 71.12 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d759e)
     (property "Reference" "LED19" (id 0) (at 85.09 63.5 0))
@@ -1518,7 +1518,7 @@
     (pin "4" (uuid 9a9b96d0-b8ce-4ce7-a395-c9acb933ead8))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 78.74 87.63 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 78.74 87.63 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d763f)
     (property "Reference" "LED18" (id 0) (at 85.09 80.01 0))
@@ -1537,7 +1537,7 @@
     (pin "4" (uuid 854c8ddd-405b-4112-8df5-60211cbcd5bb))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 78.74 104.14 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 78.74 104.14 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7593)
     (property "Reference" "LED17" (id 0) (at 85.09 96.52 0))
@@ -1556,7 +1556,7 @@
     (pin "4" (uuid 99f47ea5-9692-4e58-b3c6-a720dd408201))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 99.06 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 99.06 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d76e2)
     (property "Reference" "LED29" (id 0) (at 105.41 45.72 0))
@@ -1575,7 +1575,7 @@
     (pin "4" (uuid b6c96de9-31a0-4c41-bd33-90c1e9b9b77c))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 99.06 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 99.06 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d76d8)
     (property "Reference" "LED28" (id 0) (at 105.41 62.23 0))
@@ -1594,7 +1594,7 @@
     (pin "4" (uuid 1c94ea15-fa1b-4d73-b59d-bd1349198f0b))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 99.06 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 99.06 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d76cf)
     (property "Reference" "LED27" (id 0) (at 105.41 78.74 0))
@@ -1613,7 +1613,7 @@
     (pin "4" (uuid 0a50ffe0-a462-483a-9ba6-2246320e080c))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 99.06 102.87 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 99.06 102.87 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d76c7)
     (property "Reference" "LED26" (id 0) (at 105.41 95.25 0))
@@ -1632,7 +1632,7 @@
     (pin "4" (uuid 89ab2260-1189-48b9-99e3-b86d597e3c89))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 116.84 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 116.84 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d76ba)
     (property "Reference" "LED38" (id 0) (at 123.19 45.72 0))
@@ -1651,7 +1651,7 @@
     (pin "4" (uuid 2378821f-e905-4dbc-ae83-7302521d85da))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 116.84 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 116.84 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d76b0)
     (property "Reference" "LED37" (id 0) (at 123.19 62.23 0))
@@ -1670,7 +1670,7 @@
     (pin "4" (uuid 1cdf791b-db06-402c-90cd-d84672a34567))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 116.84 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 116.84 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d76a7)
     (property "Reference" "LED36" (id 0) (at 123.19 78.74 0))
@@ -1689,7 +1689,7 @@
     (pin "4" (uuid e06cb63a-acc7-4f99-adb6-ac6724f87759))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 116.84 102.87 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 116.84 102.87 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d769f)
     (property "Reference" "LED35" (id 0) (at 123.19 95.25 0))
@@ -1708,7 +1708,7 @@
     (pin "4" (uuid 18e65d55-eccf-40c0-9b81-08102eb21115))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 138.43 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 138.43 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7669)
     (property "Reference" "LED33" (id 0) (at 144.78 45.72 0))
@@ -1727,7 +1727,7 @@
     (pin "4" (uuid f8152e0a-1978-429c-ba79-69c15db462b4))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 138.43 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 138.43 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d766f)
     (property "Reference" "LED32" (id 0) (at 144.78 62.23 0))
@@ -1746,7 +1746,7 @@
     (pin "4" (uuid c39ec70b-1d92-479a-869b-babc1a7c7b5b))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 138.43 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 138.43 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7675)
     (property "Reference" "LED31" (id 0) (at 144.78 78.74 0))
@@ -1765,7 +1765,7 @@
     (pin "4" (uuid a401b030-1890-48da-a944-52f88f0f7b75))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 138.43 102.87 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 138.43 102.87 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7663)
     (property "Reference" "LED34" (id 0) (at 144.78 95.25 0))
@@ -1784,7 +1784,7 @@
     (pin "4" (uuid 8597b99e-7909-42c8-bb74-57aee8b7f45f))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 160.02 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 160.02 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75ae)
     (property "Reference" "LED3" (id 0) (at 166.37 45.72 0))
@@ -1803,7 +1803,7 @@
     (pin "4" (uuid a0c8d25c-666c-4efe-a798-cf22c8497464))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 160.02 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 160.02 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75b5)
     (property "Reference" "LED2" (id 0) (at 166.37 62.23 0))
@@ -1822,7 +1822,7 @@
     (pin "4" (uuid beda1677-f674-4ce1-897e-c59dd7e63c9d))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 160.02 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 160.02 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75bc)
     (property "Reference" "LED1" (id 0) (at 166.37 78.74 0))
@@ -1841,7 +1841,7 @@
     (pin "4" (uuid e7f7c0c4-bb3b-40a5-a2d9-5c1589be9078))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 177.8 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 177.8 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75c5)
     (property "Reference" "LED10" (id 0) (at 184.15 45.72 0))
@@ -1860,7 +1860,7 @@
     (pin "4" (uuid e0d4feca-4b25-4320-8436-3d51924f7375))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 177.8 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 177.8 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75ce)
     (property "Reference" "LED9" (id 0) (at 184.15 62.23 0))
@@ -1879,7 +1879,7 @@
     (pin "4" (uuid 6029e050-fdde-4fe5-ac93-2f181e3ea86a))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 177.8 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 177.8 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75d7)
     (property "Reference" "LED8" (id 0) (at 184.15 78.74 0))
@@ -1898,7 +1898,7 @@
     (pin "4" (uuid 3a914186-b1a6-40fe-85ef-1f9dd8b0e3d8))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 196.85 68.58 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 196.85 68.58 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75e3)
     (property "Reference" "LED16" (id 0) (at 203.2 60.96 0))
@@ -1917,7 +1917,7 @@
     (pin "4" (uuid de3f2883-aff8-40ef-b6b0-793fa4ebf73a))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 196.85 85.09 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 196.85 85.09 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7652)
     (property "Reference" "LED15" (id 0) (at 203.2 77.47 0))
@@ -1936,7 +1936,7 @@
     (pin "4" (uuid f48cb5e4-fe47-4a83-b63b-64d51259b230))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 217.17 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 217.17 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75ee)
     (property "Reference" "LED25" (id 0) (at 223.52 45.72 0))
@@ -1955,7 +1955,7 @@
     (pin "4" (uuid fdedd939-565b-420a-996a-b89bf9f295f1))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 217.17 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 217.17 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d75f7)
     (property "Reference" "LED24" (id 0) (at 223.52 62.23 0))
@@ -1974,7 +1974,7 @@
     (pin "4" (uuid 0d8fcea8-bf4a-4f10-a2a0-60de0cd00f46))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 217.17 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 217.17 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7600)
     (property "Reference" "LED23" (id 0) (at 223.52 78.74 0))
@@ -1993,7 +1993,7 @@
     (pin "4" (uuid cde990df-a8df-4b68-8c63-9df386ef43eb))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 234.95 53.34 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 234.95 53.34 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d760a)
     (property "Reference" "LED22" (id 0) (at 241.3 45.72 0))
@@ -2012,7 +2012,7 @@
     (pin "4" (uuid d80c324e-d7a0-4f75-9c77-73b1c97159df))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 234.95 69.85 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 234.95 69.85 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d7613)
     (property "Reference" "LED21" (id 0) (at 241.3 62.23 0))
@@ -2031,7 +2031,7 @@
     (pin "4" (uuid 09ccdbb5-09fa-490f-bb3f-6c6ae9c5e76f))
   )
 
-  (symbol (lib_id "ICEDLeft:RGB_0606") (at 234.95 86.36 0) (unit 1)
+  (symbol (lib_id "ICEDLeft:RGB_0606") (at 234.95 86.36 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d761c)
     (property "Reference" "LED30" (id 0) (at 241.3 78.74 0))
@@ -2050,7 +2050,7 @@
     (pin "4" (uuid 66dfef90-d708-4182-8a7d-d6890e0ec6df))
   )
 
-  (symbol (lib_id "ICEDLeft:IS31FL3737-QFLS4-TR") (at 124.46 170.18 180) (unit 1)
+  (symbol (lib_id "ICEDLeft:IS31FL3737-QFLS4-TR") (at 124.46 170.18 180)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606d76fc)
     (property "Reference" "U2" (id 0) (at 102.87 146.05 0)
