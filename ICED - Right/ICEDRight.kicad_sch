@@ -2264,14 +2264,8 @@
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000520a1ee4"
       (reference "#PWR08") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000539cd891"
-      (reference "#PWR09") (unit 1) (value "VSS") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000539c9f4f"
       (reference "#PWR010") (unit 1) (value "VSS") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000539cdf75"
-      (reference "#PWR011") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-00005403876e"
       (reference "#PWR014") (unit 1) (value "VSS") (footprint "")
@@ -2305,9 +2299,6 @@
     )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000539cd96a"
       (reference "#PWR027") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000552f58f9"
-      (reference "#PWR028") (unit 1) (value "VDD") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-000055307c94"
       (reference "#PWR029") (unit 1) (value "VSS") (footprint "")
@@ -2356,6 +2347,12 @@
     )
     (path "/00000000-0000-0000-0000-0000549878f0/c3ba8349-bb37-4cc9-bb8e-705f362f83e6"
       (reference "#PWR0110") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000549878f0/373358f6-dbf4-4551-a58e-94cccb663a77"
+      (reference "#PWR0111") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000549878f0/64cbc307-e12c-42a6-bb8e-c9087fa5b671"
+      (reference "#PWR0112") (unit 1) (value "VSS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000553097ee"
       (reference "C1") (unit 1) (value "1uF") (footprint "prettylib:SMD-1005")
@@ -2654,8 +2651,8 @@
     (path "/00000000-0000-0000-0000-0000549878f0/409be6ac-7898-4c30-8214-235da129e665/00000000-0000-0000-0000-0000606d76ba"
       (reference "LED38") (unit 1) (value "RGB_0606") (footprint "prettylib:0606")
     )
-    (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000552f5625"
-      (reference "P1") (unit 1) (value "FLASH_HDR") (footprint "prettylib:JLINK_NEEDLE")
+    (path "/00000000-0000-0000-0000-0000549878f0/e71fceb4-b64d-4a73-a324-c74133e8d34a"
+      (reference "P1") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "prettylib:SHF-105-01-L-D-TH")
     )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-000056f2ab2d"
       (reference "P2") (unit 1) (value "USBC") (footprint "prettylib:USB_C_MIDMOUNT_TH_IMPCUT")
