@@ -2193,12 +2193,6 @@
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-00005403877c"
       (reference "#PWR015") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-00005498da99"
-      (reference "#PWR016") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-00005498daa9"
-      (reference "#PWR017") (unit 1) (value "VSS") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000549a599b"
       (reference "#PWR018") (unit 1) (value "VSS") (footprint "~")
     )
@@ -2270,6 +2264,9 @@
     )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000610174ab"
       (reference "#PWR0112") (unit 1) (value "VSS") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000549878f0/78ab8554-103b-4253-ba78-07d4fb7c4206"
+      (reference "#PWR0113") (unit 1) (value "VSS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-0000553097ee"
       (reference "C1") (unit 1) (value "1uF") (footprint "prettylib:SMD-1005")
@@ -2577,8 +2574,8 @@
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-000055307b33"
       (reference "P3") (unit 1) (value "CONN_17") (footprint "prettylib:HEADER_1x17")
     )
-    (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-000060d82fc9"
-      (reference "P4") (unit 1) (value "692121130100") (footprint "692121130100")
+    (path "/00000000-0000-0000-0000-0000549878f0/02050d96-ca9a-404c-8bbb-ce31d647bf9c"
+      (reference "P4") (unit 1) (value "DX07S024XJ1R1100") (footprint "JAE_DX07S024XJ1R1100")
     )
     (path "/00000000-0000-0000-0000-0000549878f0/00000000-0000-0000-0000-000060ca20cd"
       (reference "P5") (unit 1) (value "RGB Out") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal")
